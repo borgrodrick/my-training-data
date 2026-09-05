@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:31:15.714438",
+  "generated_at": "2026-09-05T09:25:53.605069",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -7973,6 +7973,73 @@
           "zone": 1,
           "training_load": 2.220247,
           "decoupling": 13.952031
+        }
+      ]
+    },
+    {
+      "activity_id": "i183506258",
+      "date": "2026-09-05",
+      "start_datetime": "2026-09-05T10:23:00",
+      "type": "TrailRun",
+      "name": "RCI1 (Cruise Intervals Run)",
+      "interval_summary": [
+        "5x 6m25s 139bpm",
+        "1x 4m3s 144bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "385s@139bpm78rpm",
+          "duration_secs": 376,
+          "avg_hr": 133,
+          "max_hr": 152,
+          "avg_cadence": 78.12234,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@139bpm78rpm",
+          "duration_secs": 381,
+          "avg_hr": 139,
+          "max_hr": 146,
+          "avg_cadence": 79.343834,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@139bpm78rpm",
+          "duration_secs": 391,
+          "avg_hr": 139,
+          "max_hr": 147,
+          "avg_cadence": 78.795395,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@139bpm78rpm",
+          "duration_secs": 380,
+          "avg_hr": 140,
+          "max_hr": 147,
+          "avg_cadence": 78.46316,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@139bpm78rpm",
+          "duration_secs": 396,
+          "avg_hr": 143,
+          "max_hr": 148,
+          "avg_cadence": 76.959595,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "243s@144bpm78rpm",
+          "duration_secs": 243,
+          "avg_hr": 144,
+          "max_hr": 148,
+          "avg_cadence": 77.584366,
+          "zone": 1
         }
       ]
     }
