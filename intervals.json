@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T05:21:14.862337",
+  "generated_at": "2026-09-08T10:01:27.323419",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -5576,6 +5576,72 @@
           "zone": 1,
           "training_load": 0.5678048,
           "decoupling": -73.45748
+        }
+      ]
+    },
+    {
+      "activity_id": "i184435134",
+      "date": "2026-09-08",
+      "start_datetime": "2026-09-08T07:26:19",
+      "type": "Run",
+      "name": "RRe5 (Recovery Run)",
+      "interval_summary": [
+        "4x 6m36s 136bpm",
+        "1x 3m58s 139bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "396s@136bpm76rpm",
+          "duration_secs": 370,
+          "avg_hr": 132,
+          "max_hr": 141,
+          "avg_cadence": 74.84553,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_hr": 136,
+          "max_hr": 136,
+          "avg_cadence": 75.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@136bpm76rpm",
+          "duration_secs": 400,
+          "avg_hr": 137,
+          "max_hr": 143,
+          "avg_cadence": 75.63089,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@136bpm76rpm",
+          "duration_secs": 394,
+          "avg_hr": 137,
+          "max_hr": 143,
+          "avg_cadence": 76.639595,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@136bpm76rpm",
+          "duration_secs": 418,
+          "avg_hr": 137,
+          "max_hr": 147,
+          "avg_cadence": 76.954544,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "238s@139bpm69rpm",
+          "duration_secs": 238,
+          "avg_hr": 139,
+          "max_hr": 151,
+          "avg_cadence": 68.86134,
+          "zone": 1
         }
       ]
     }
