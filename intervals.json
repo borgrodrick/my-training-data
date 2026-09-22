@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:57:38.936701",
+  "generated_at": "2026-09-22T18:45:27.786089",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -2549,6 +2549,91 @@
           "avg_hr": 148,
           "max_hr": 153,
           "avg_cadence": 78.07738,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i189279105",
+      "date": "2026-09-22",
+      "start_datetime": "2026-09-22T18:18:36",
+      "type": "Run",
+      "name": "Aerobic Easy",
+      "interval_summary": [
+        "7x 6m 145bpm",
+        "1x 3m46s 151bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "360s@145bpm78rpm",
+          "duration_secs": 345,
+          "avg_hr": 133,
+          "max_hr": 163,
+          "avg_cadence": 76.50725,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "360s@145bpm78rpm",
+          "duration_secs": 365,
+          "avg_hr": 139,
+          "max_hr": 153,
+          "avg_cadence": 78.15429,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "360s@145bpm78rpm",
+          "duration_secs": 400,
+          "avg_hr": 143,
+          "max_hr": 155,
+          "avg_cadence": 76.53665,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "360s@145bpm78rpm",
+          "duration_secs": 384,
+          "avg_hr": 143,
+          "max_hr": 153,
+          "avg_cadence": 77.70052,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "360s@145bpm78rpm",
+          "duration_secs": 318,
+          "avg_hr": 154,
+          "max_hr": 162,
+          "avg_cadence": 76.84906,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "360s@145bpm78rpm",
+          "duration_secs": 345,
+          "avg_hr": 150,
+          "max_hr": 158,
+          "avg_cadence": 78.797104,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "360s@145bpm78rpm",
+          "duration_secs": 360,
+          "avg_hr": 152,
+          "max_hr": 160,
+          "avg_cadence": 78.861115,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "226s@151bpm76rpm",
+          "duration_secs": 226,
+          "avg_hr": 151,
+          "max_hr": 163,
+          "avg_cadence": 76.14602,
           "zone": 2
         }
       ]
