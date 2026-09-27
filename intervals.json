@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T12:23:26.591231",
+  "generated_at": "2026-09-27T17:12:16.002526",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -4038,6 +4038,77 @@
           "zone": 1,
           "training_load": 0.4736709,
           "decoupling": 27.159594
+        }
+      ]
+    },
+    {
+      "activity_id": "i190888615",
+      "date": "2026-09-27",
+      "start_datetime": "2026-09-27T12:41:14",
+      "type": "Ride",
+      "name": "Rapperswil-Jona Cycling",
+      "interval_summary": [
+        "1x 1h9m 95bpm",
+        "2x 54m24s 92bpm",
+        "1x 45m1s 101bpm",
+        "1x 23m2s 95bpm",
+        "1x 5m29s 92bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4197s@95bpm",
+          "duration_secs": 4197,
+          "avg_hr": 95,
+          "max_hr": 112,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 99,
+          "max_hr": 99,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "3264s@92bpm",
+          "duration_secs": 3106,
+          "avg_hr": 88,
+          "max_hr": 109,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "3264s@92bpm",
+          "duration_secs": 3422,
+          "avg_hr": 96,
+          "max_hr": 116,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "2701s@101bpm",
+          "duration_secs": 2701,
+          "avg_hr": 101,
+          "max_hr": 136,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1382s@95bpm",
+          "duration_secs": 1382,
+          "avg_hr": 95,
+          "max_hr": 114,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "329s@92bpm",
+          "duration_secs": 329,
+          "avg_hr": 92,
+          "max_hr": 100,
+          "zone": 1
         }
       ]
     }
