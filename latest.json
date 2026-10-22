@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-22T05:58:21.477780",
+    "last_updated": "2026-10-22T11:39:30.744830",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.117"
@@ -669,7 +669,7 @@
     "p_max": 859,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-22T05:58:21.476941",
+    "calculation_timestamp": "2026-10-22T11:39:30.743579",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3534,21 +3534,8 @@
   ],
   "planned_workouts": [
     {
-      "id": 146060857,
-      "date": "2026-10-23",
-      "name": "Recovery Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 14,
-      "duration_hours": 0.42,
-      "duration_formatted": "25m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Optional Recovery Shakeout\n(Skip if your calves or Achilles feel tight) \nRecovery Run\n- 25m Z1 HR"
-    },
-    {
       "id": 146060611,
-      "date": "2026-10-24",
+      "date": "2026-10-23",
       "name": "Controlled Long Run",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -3558,6 +3545,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Aerobic Base\n- 70m Z1-Z2 HR\n\nRace Rhythm\n- 15m Z4 HR"
+    },
+    {
+      "id": 146060857,
+      "date": "2026-10-24",
+      "name": "Recovery Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 14,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Optional Recovery Shakeout\n(Skip if your calves or Achilles feel tight) \nRecovery Run\n- 25m Z1 HR"
     },
     {
       "id": 146061197,
