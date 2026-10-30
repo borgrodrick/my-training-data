@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-30T09:53:19.015877",
+    "last_updated": "2026-10-30T16:37:48.492515",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.117"
@@ -661,7 +661,7 @@
     "p_max": 852,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-30T09:53:19.014610",
+    "calculation_timestamp": "2026-10-30T16:37:48.491334",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2818,21 +2818,8 @@
   ],
   "planned_workouts": [
     {
-      "id": 146061495,
-      "date": "2026-10-30",
-      "name": "Easy Shakeout + Strides",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 18,
-      "duration_hours": 0.4,
-      "duration_formatted": "24m",
-      "workout_summary": "20m | 4\u00d720s / 40s rec",
-      "has_terrain": false,
-      "description": "Shakeout\n- 20m Z1-Z2 HR\n\nStrides 4x\n- Stride 20s Z6-Z7 HR\n- Walk Recovery 40s Z1 HR"
-    },
-    {
       "id": 146061665,
-      "date": "2026-10-31",
+      "date": "2026-10-30",
       "name": "Taper Long Run",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -2842,6 +2829,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Long Run\n- 60m Z1-Z2 HR"
+    },
+    {
+      "id": 146061495,
+      "date": "2026-11-01",
+      "name": "Easy Shakeout + Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 18,
+      "duration_hours": 0.4,
+      "duration_formatted": "24m",
+      "workout_summary": "20m | 4\u00d720s / 40s rec",
+      "has_terrain": false,
+      "description": "Shakeout\n- 20m Z1-Z2 HR\n\nStrides 4x\n- Stride 20s Z6-Z7 HR\n- Walk Recovery 40s Z1 HR"
     },
     {
       "id": 146061839,
