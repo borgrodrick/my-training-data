@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:54:12.010477",
+  "generated_at": "2026-11-04T17:53:55.493783",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -1824,6 +1824,120 @@
           "zone": 1,
           "training_load": 2.8916545,
           "decoupling": -40.24535
+        }
+      ]
+    },
+    {
+      "activity_id": "i205756624",
+      "date": "2026-11-04",
+      "start_datetime": "2026-11-04T17:29:34",
+      "type": "Run",
+      "name": "Affoltern am Albis - Pre-Race Shakeout",
+      "interval_summary": [
+        "3x 5m23s 145bpm",
+        "2x 3m53s 136bpm",
+        "3x 15s 151bpm",
+        "3x 45s 157bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "323s@145bpm77rpm",
+          "duration_secs": 315,
+          "avg_hr": 146,
+          "max_hr": 163,
+          "avg_cadence": 75.65714,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "323s@145bpm77rpm",
+          "duration_secs": 332,
+          "avg_hr": 144,
+          "max_hr": 160,
+          "avg_cadence": 77.945786,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "323s@145bpm77rpm",
+          "duration_secs": 321,
+          "avg_hr": 145,
+          "max_hr": 158,
+          "avg_cadence": 77.28037,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "233s@136bpm79rpm",
+          "duration_secs": 233,
+          "avg_hr": 140,
+          "max_hr": 152,
+          "avg_cadence": 78.83691,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "15s@151bpm81rpm",
+          "duration_secs": 16,
+          "avg_hr": 152,
+          "max_hr": 153,
+          "avg_cadence": 90.5,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "45s@157bpm75rpm",
+          "duration_secs": 44,
+          "avg_hr": 161,
+          "max_hr": 170,
+          "avg_cadence": 74.36364,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "15s@151bpm81rpm",
+          "duration_secs": 15,
+          "avg_hr": 157,
+          "max_hr": 158,
+          "avg_cadence": 67.53333,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "45s@157bpm75rpm",
+          "duration_secs": 45,
+          "avg_hr": 155,
+          "max_hr": 161,
+          "avg_cadence": 74.022224,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "15s@151bpm81rpm",
+          "duration_secs": 15,
+          "avg_hr": 145,
+          "max_hr": 145,
+          "avg_cadence": 85.666664,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "45s@157bpm75rpm",
+          "duration_secs": 45,
+          "avg_hr": 154,
+          "max_hr": 166,
+          "avg_cadence": 78.022224,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "233s@136bpm79rpm",
+          "duration_secs": 232,
+          "avg_hr": 132,
+          "max_hr": 146,
+          "avg_cadence": 79.22845,
+          "zone": 1
         }
       ]
     }
