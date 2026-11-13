@@ -65,15 +65,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 3.44,
-      "total_training_formatted": "3h26m",
-      "total_activities": 2,
-      "total_tss": 181
+      "total_training_hours": 4.37,
+      "total_training_formatted": "4h22m",
+      "total_activities": 3,
+      "total_tss": 213
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-13T07:11:25.888101",
+    "last_updated": "2026-11-13T15:27:10.721524",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.117"
@@ -106,10 +106,10 @@
   "alerts": [
     {
       "metric": "tid_distribution",
-      "value": 1.94,
+      "value": 1.98,
       "severity": "warning",
       "threshold": "7d PI < 2.0, 28d PI >= 2.0",
-      "context": "Acute depolarization: 7d PI 1.94 vs 28d PI 2.13. Grey zone or threshold work displacing polarized structure.",
+      "context": "Acute depolarization: 7d PI 1.98 vs 28d PI 2.13. Grey zone or threshold work displacing polarized structure.",
       "persistence_days": null,
       "tier": 3
     }
@@ -137,7 +137,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.82
+        "value": 0.93
       },
       "ri": {
         "status": "green",
@@ -146,7 +146,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 19.7
+        "value": 16.2
       }
     },
     "signal_summary": {
@@ -176,9 +176,21 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 3.44,
-    "total_activities": 2,
+    "total_duration_decimal_hours": 4.37,
+    "total_activities": 3,
     "by_activity_type": {
+      "GravelRide": {
+        "duration_decimal_hours": 0.93,
+        "count": 1,
+        "tss": 32,
+        "distance_km": 20.1,
+        "display": {
+          "distance": {
+            "value": 20.1,
+            "unit": "km"
+          }
+        }
+      },
       "Hike": {
         "duration_decimal_hours": 1.63,
         "count": 1,
@@ -207,11 +219,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 41.64,
-      "atl": 21.97,
-      "tsb": 19.67,
-      "ramp_rate": -3.07,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 42.39,
+      "atl": 26.23,
+      "tsb": 16.16,
+      "ramp_rate": -2.32,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 239.7,
@@ -276,7 +288,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 103,
+      "steps": 1213,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -296,44 +308,44 @@
     "rhr_baseline_28d": 51.1,
     "latest_hrv": 47.0,
     "latest_rhr": 55,
-    "acwr": 0.82,
+    "acwr": 0.93,
     "acwr_interpretation": "optimal",
-    "monotony": 0.44,
+    "monotony": 0.52,
     "monotony_interpretation": "normal",
     "primary_sport": "run",
     "primary_sport_monotony": null,
     "primary_sport_tss_7d": 159.0,
-    "effective_monotony": 0.44,
+    "effective_monotony": 0.52,
     "multi_sport_detected": true,
-    "strain": 80.0,
-    "stress_tolerance": 1.8,
-    "load_recovery_ratio": 1.6,
-    "tss_7d_total": 181.0,
-    "tss_28d_total": 884.0,
+    "strain": 111.0,
+    "stress_tolerance": 2.1,
+    "load_recovery_ratio": 1.9,
+    "tss_7d_total": 213.0,
+    "tss_28d_total": 916.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.73,
-      "z2_hours": 0.34,
-      "z3_hours": 0.53,
-      "z4_plus_hours": 0.76,
-      "total_hours": 3.35,
+      "z1_hours": 2.38,
+      "z2_hours": 0.59,
+      "z3_hours": 0.56,
+      "z4_plus_hours": 0.77,
+      "total_hours": 4.29,
       "zone_basis": "hr"
     },
-    "grey_zone_percentage": 15.8,
+    "grey_zone_percentage": 12.9,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 22.6,
+    "quality_intensity_percentage": 17.8,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.62,
+    "easy_time_ratio": 0.69,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 7435,
-      "z2_seconds": 1910,
-      "z3_seconds": 2730,
-      "z1_pct": 61.6,
-      "z2_pct": 15.8,
-      "z3_pct": 22.6,
-      "polarization_index": 1.94,
+      "z1_seconds": 10687,
+      "z2_seconds": 1998,
+      "z3_seconds": 2755,
+      "z1_pct": 69.2,
+      "z2_pct": 12.9,
+      "z3_pct": 17.8,
+      "polarization_index": 1.98,
       "classification": "Pyramidal",
       "zone_basis": "hr"
     },
@@ -350,12 +362,12 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 37298,
-      "z2_seconds": 4638,
-      "z3_seconds": 8459,
-      "z1_pct": 74.0,
-      "z2_pct": 9.2,
-      "z3_pct": 16.8,
+      "z1_seconds": 40550,
+      "z2_seconds": 4726,
+      "z3_seconds": 8484,
+      "z1_pct": 75.4,
+      "z2_pct": 8.8,
+      "z3_pct": 15.8,
       "polarization_index": 2.13,
       "classification": "Polarized",
       "zone_basis": "mixed"
@@ -404,9 +416,9 @@
       "tid_comparison": {
         "classification_7d": "Pyramidal",
         "classification_28d": "Polarized",
-        "pi_7d": 1.94,
+        "pi_7d": 1.98,
         "pi_28d": 2.13,
-        "pi_delta": -0.19,
+        "pi_delta": -0.15,
         "drift": "acute_depolarization",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
@@ -591,18 +603,18 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 4,
-      "completed_days": 2,
+      "planned_days": 3,
+      "completed_days": 3,
       "matched_days": 0,
       "planned_dates": [
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12",
-        "2026-11-13"
+        "2026-11-12"
       ],
       "completed_dates": [
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-13"
       ]
     },
     "phase_detection": {
@@ -618,13 +630,13 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 2,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 0,
           "race_proximity": null,
-          "next_week_load": 0.15,
-          "plan_coverage_current_week": 0.75,
-          "plan_coverage_next_week": 2.5
+          "next_week_load": null,
+          "plan_coverage_current_week": 0.0,
+          "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -657,13 +669,13 @@
     "p_max": 840,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-13T07:11:25.887159",
+    "calculation_timestamp": "2026-11-13T15:27:10.720869",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 2,
-      "activities_28d": 14,
-      "planned_workouts_7d": 4,
+      "activities_7d": 3,
+      "activities_28d": 15,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -671,6 +683,171 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i209491232",
+      "date": "2026-11-13T11:34:20",
+      "type": "GravelRide",
+      "name": "Affoltern am Albis Gravel/Unpaved Cycling",
+      "duration_hours": 0.93,
+      "duration_formatted": "56m4s",
+      "distance_km": 20.13,
+      "tss": 32,
+      "intensity_factor": 58.458393,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 124,
+      "max_hr": 164,
+      "avg_cadence": null,
+      "avg_speed": 21.5,
+      "avg_speed_unit": "KPH",
+      "max_speed": 58.2,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 6.983694,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "BFT",
+      "work_kj": null,
+      "calories": 557,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": 308.0,
+      "display": {
+        "distance": {
+          "value": 20.13,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 308,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 21.5,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 58.2,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 2360,
+          "z2_time": 892,
+          "z3_time": 88,
+          "z4_time": 25,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true,
+      "has_dfa": false,
+      "terrain_summary": {
+        "source": "activity_streams",
+        "total_distance_km": 20.2,
+        "total_elevation_m": 312,
+        "elevation_per_km": 15.4,
+        "course_character": "rolling",
+        "max_grade_pct": 8.6,
+        "grade_distribution": {
+          "flat_pct": 28.2,
+          "gentle_pct": 30.3,
+          "moderate_pct": 31.4,
+          "steep_pct": 10.1
+        },
+        "start_coords": [
+          47.28299,
+          8.45402
+        ],
+        "climbs": [
+          {
+            "position_km": 1.0,
+            "distance_km": 5.5,
+            "elevation_m": 102,
+            "avg_gradient_pct": 1.9,
+            "start_coords": [
+              47.27551,
+              8.45533
+            ],
+            "end_coords": [
+              47.24647,
+              8.48768
+            ],
+            "display": {
+              "position": {
+                "value": 1.0,
+                "unit": "km"
+              },
+              "distance": {
+                "value": 5.5,
+                "unit": "km"
+              },
+              "elevation": {
+                "value": 102,
+                "unit": "m"
+              }
+            },
+            "max_gradient_pct": 9.7,
+            "category": "Cat 4"
+          }
+        ],
+        "descents": [
+          {
+            "position_km": 6.5,
+            "distance_km": 5.1,
+            "elevation_m": -182,
+            "avg_gradient_pct": -3.5,
+            "start_coords": [
+              47.24647,
+              8.48768
+            ],
+            "end_coords": [
+              47.23627,
+              8.43474
+            ],
+            "display": {
+              "position": {
+                "value": 6.5,
+                "unit": "km"
+              },
+              "distance": {
+                "value": 5.1,
+                "unit": "km"
+              },
+              "elevation": {
+                "value": -182,
+                "unit": "m"
+              }
+            }
+          }
+        ],
+        "display": {
+          "total_distance": {
+            "value": 20.2,
+            "unit": "km"
+          },
+          "total_elevation": {
+            "value": 312,
+            "unit": "m"
+          },
+          "elevation_per_distance": {
+            "value": 15,
+            "unit": "m/km"
+          }
+        }
+      },
+      "weather_status": "unavailable"
+    },
     {
       "id": "i207757226",
       "date": "2026-11-09T10:42:10",
@@ -2778,7 +2955,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 103,
+      "steps": 1213,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2791,199 +2968,102 @@
   ],
   "planned_workouts": [
     {
-      "id": 151931860,
-      "date": "2026-11-13",
+      "id": 155413721,
+      "date": "2026-11-17",
+      "name": "Benchmark Field Test (20-min FTP & FTHR)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 63,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "07:00",
+      "description": "Purpose: Determine current Functional Threshold Power (FTP) and Functional Threshold Heart Rate (FTHR) through a maximal, steady 20-minute time-trial effort.\n\nPacing Strategy:\n\u2022 Minutes 0\u20135: Avoid an initial sprint. Settle right into your expected target pace (around 102\u2013105% of prior FTP). Going out too hard in the first 3 minutes causes early acid buildup that sabotages the final 10.\n\u2022 Minutes 5\u201315: Hold a steady, sustainable cadence (90\u201395 RPM). Lock into a deep, controlled breathing rhythm.\n\u2022 Minutes 15\u201320: Empty the tank. If you have remaining reserves in the last 3\u20135 minutes, gradually increase power to finish with an empty tank.\n\nTrainer Mode: If completing this indoors on a smart trainer, switch the 20-minute test block from ERG mode to Level/Slope/Resistance mode. In ERG mode, the trainer will dictate a fixed wattage rather than letting you find your true maximal sustainable limit.\n\nWarmup\n- 15m ramp 50-65%\n- 3x 1m 100% 95-105rpm (1m 55%)\n- 5m 55%\n\nMain Set\n- 20m 105%\n\nCooldown\n- 10m ramp 65-50%"
+    },
+    {
+      "id": 155413724,
+      "date": "2026-11-18",
+      "name": "Post-Test Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 21,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "07:00",
+      "description": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Active 35m 50-70%"
+    },
+    {
+      "id": 155413744,
+      "date": "2026-11-19",
+      "name": "Strength & Core Conditioning",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 40,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "07:00",
+      "description": "Purpose: Develop functional neuromuscular force, pelvic stability, and connective tissue resilience to prevent cycling overuse injuries.\n\nExecution Strategy:\n\u2022 Compound Movements: Focus on squats, Romanian deadlifts, Bulgarian split squats, and planks.\n\u2022 Tempo: Controlled 3-second eccentric phase, explosive concentric drive.\n\u2022 Volume: 2\u20133 sets of 8\u201310 reps at RPE 7\u20138; do not train to complete muscular failure.\n\nTrainer Mode: Gym / Bodyweight equipment. Rest 90\u2013120 seconds between heavy compound sets.\n\nStrength Phase: Anatomical Adaptation (AA)\nFocus: Strength & Core Conditioning"
+    },
+    {
+      "id": 155413747,
+      "date": "2026-11-20",
       "name": "Aerobic Foundation",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 36,
-      "duration_hours": 0.68,
-      "duration_formatted": "41m",
+      "planned_tss": 26,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Purpose: Developed by scientists at the University of Udine in Italy, Descending Intervals are proven to increase the amount of time an athlete is able to spend above 90% of VO2max intensity within a single session. This makes the workout a potent way to boost aerobic capacity (aka VO2max).\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm-up 1 5m 50-70%\n- Warm-up 2 10m 70-83%\n- Maximal Aerobic Power 1 of 1 3m 110-125%\n- Recovery 2m 50-70%\n- Maximal Aerobic Power 1 of 1 2m 110-125%\n- Easy 1m20s 50-70%\n- Maximal Aerobic Power 1 of 1 1m 110-125%\n- Recovery 45s 50-70%\n- Maximal Aerobic Power 1 of 1 45s 110-125%\n- Recovery 30s 50-70%\n- Maximal Aerobic Power 1 of 1 30s 110-125%\n- Recovery 20s 50-70%\n- Recovery 5m 50-70%\n- Cool Down 10m 70-83%"
+      "description": "Purpose: Easy Rides are the most important type of ride you can do and are the ride type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, efficiency, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 10m 50-70%\n- Active 20m 70-83%"
     },
     {
-      "id": 151931861,
-      "date": "2026-11-14",
+      "id": 155413750,
+      "date": "2026-11-21",
       "name": "Muscular Force / Tempo Session",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 47,
-      "duration_hours": 0.88,
-      "duration_formatted": "53m",
-      "workout_summary": null,
+      "planned_tss": 61,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
+      "workout_summary": "5m @144W | 5m @184W | 12\u00d71m @282W / 2m rec | 5m @144W",
       "has_terrain": false,
-      "start_time": "07:00",
-      "description": "Purpose: The cycling tempo workout does an excellent job at muscular endurance, and should be used as a method to either verify or re-establish current HR Zones. A difficult workout, pacing is key. Start slightly lower and finish stronger. Some brief forays into Zone 4 are acceptable.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 5m 50-70%\n- Warm up 5m 70-83%\n- Active 32m 91-100%\n- Cool Down 5m 70-83%\n- Cool Down 5m 50-70%"
+      "start_time": "07:00"
     },
     {
-      "id": 151931862,
-      "date": "2026-11-15",
+      "id": 155413753,
+      "date": "2026-11-22",
       "name": "Long Endurance Ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 108,
-      "duration_hours": 2.02,
-      "duration_formatted": "2h1m",
-      "workout_summary": "20m @144W | 3\u00d720m @184W / 7m rec | 20m @144W",
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description": "Purpose: This cycling aerobic interval set is intended to prepare the athlete for the specific intensity and stress of half and full Ironman racing. The Zone 2 intervals should be done at the expected intensity of the athlete's next half or full Ironman. For new athletes, this will be low to mid Zone 2. For more experienced athletes, this intensity will take place in upper Zone 2. For advanced athletes, these intervals can even include Zone X, a rare exception to the 80/20 system.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 20m 50-70%\n- Hard 1 of 3 20m 70-83%\n- Easy 7m 50-70%\n- Hard 2 of 3 20m 70-83%\n- Easy 7m 50-70%\n- Hard 3 of 3 20m 70-83%\n- Easy 7m 50-70%\n- Cool Down 20m 50-70%"
-    },
-    {
-      "id": 151938670,
-      "date": "2026-11-17",
-      "name": "Aerobic Cross-Train: Run / Row / Hike",
-      "type": "WORKOUT",
-      "sport_type": "Rowing",
-      "planned_tss": 27,
-      "duration_hours": 0.7,
-      "duration_formatted": "42m",
-      "workout_summary": "5m | 4\u00d75m @3W / 3m rec | 5m",
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description": "Warmup\n- 5m ramp 50-65% 18-20spm\n\n4x\n- Medium Intensity 5m Z3 24spm\n- Rest or Light Row 3m 40% 18spm\n\nCooldown\n- 5m ramp 60-45% 18spm"
-    },
-    {
-      "id": 151938671,
-      "date": "2026-11-17",
-      "name": "Cadence Spin & Pedaling Economy",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 18,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
+      "planned_tss": 100,
+      "duration_hours": 1.75,
+      "duration_formatted": "1h45m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "- Active 30m 50-70%"
-    },
-    {
-      "id": 151938672,
-      "date": "2026-11-18",
-      "name": "Aerobic Cross-Train: Ergometer Rowing / Nordic Ski",
-      "type": "WORKOUT",
-      "sport_type": "Rowing",
-      "planned_tss": 32,
-      "duration_hours": 0.7,
-      "duration_formatted": "42m",
-      "workout_summary": "5m | 4\u00d75m @3W / 3m rec | 5m",
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description": "Warmup\n- 5m ramp 50-65% 18-20spm\n\n4x\n- Medium Intensity 5m Z3 24spm\n- Rest or Light Row 3m 40% 18spm\n\nCooldown\n- 5m ramp 60-45% 18spm"
-    },
-    {
-      "id": 151938673,
-      "date": "2026-11-18",
-      "name": "Gym S&C: Anatomical Adaptation (AA) Session 1",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 36,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description": "Multi-joint compound movements (squat/lunge/push/pull, 20-30 reps, 40-60% 1RM) + core planks and hip stability.\n\nStrength Phase: Anatomical Adaptation (AA)\nFocus: Gym S&C: Anatomical Adaptation (AA) Session 1"
-    },
-    {
-      "id": 151938675,
-      "date": "2026-11-19",
-      "name": "Morning Aerobic Cross-Train: Run or Trail Walk",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 27,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description": "- Warm-up 5m 70%\n- Active 25m 70%"
-    },
-    {
-      "id": 151938676,
-      "date": "2026-11-19",
-      "name": "Evening Easy Aerobic Spin",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 18,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description": "- Active 30m 50-70%"
-    },
-    {
-      "id": 151938677,
-      "date": "2026-11-21",
-      "name": "Gym S&C: Anatomical Adaptation (AA) Session 2",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 36,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Second weekly gym session: core rotational stability, single-leg step-ups, glute medius activation, posture work.\nStrength Phase: Anatomical Adaptation (AA)\nFocus: Gym S&C: Anatomical Adaptation (AA) Session 2"
-    },
-    {
-      "id": 151938678,
-      "date": "2026-11-21",
-      "name": "Unstructured Mixed-Terrain Ride (Gravel/Trail)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 55,
-      "duration_hours": 0.78,
-      "duration_formatted": "47m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "- Warm-up 1 5m 50-70%\n- Warm-up 2 5m 70-83%\n- Zone 3 1 of 3 3m 91-100%"
-    },
-    {
-      "id": 151938679,
-      "date": "2026-11-22",
-      "name": "Aerobic Cross-Train: Trail Hike / Run / Row",
-      "type": "WORKOUT",
-      "sport_type": "Rowing",
-      "planned_tss": 63,
-      "duration_hours": 0.7,
-      "duration_formatted": "42m",
-      "workout_summary": "5m | 4\u00d75m @3W / 3m rec | 5m",
-      "has_terrain": false,
-      "start_time": "07:00"
-    },
-    {
-      "id": 151938680,
-      "date": "2026-11-22",
-      "name": "Easy Aerobic Recovery Spin",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 40,
-      "duration_hours": 0.63,
-      "duration_formatted": "38m",
-      "workout_summary": "5m @144W | 5m @184W | 6\u00d71m @254W / 2m rec | 10m @144W",
-      "has_terrain": false,
-      "start_time": "07:00"
+      "description_preview": "Purpose: Easy Rides are the most important type of ride you can do and are the ride type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, efficiency, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM."
     }
   ],
   "workout_summary_stats": {
-    "attempted": 11,
-    "success": 5,
-    "patternA": 3,
-    "patternB": 2,
-    "bail_no_workout_doc": 2,
-    "bail_no_match": 6
+    "attempted": 5,
+    "success": 1,
+    "patternA": 0,
+    "patternB": 1,
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 4
   },
   "weekly_summary": {
-    "total_training_hours": 3.44,
-    "total_training_formatted": "3h26m",
-    "total_tss": 181,
-    "activities_count": 2,
+    "total_training_hours": 4.37,
+    "total_training_formatted": "4h22m",
+    "total_tss": 213,
+    "activities_count": 3,
     "avg_hrv": 41.3,
     "avg_resting_hr": 53.7
   },

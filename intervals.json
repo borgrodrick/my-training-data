@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:11:25.884680",
+  "generated_at": "2026-11-13T15:27:10.252623",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -1358,6 +1358,33 @@
           "max_hr": 189,
           "avg_cadence": 81.36207,
           "zone": 6
+        }
+      ]
+    },
+    {
+      "activity_id": "i209491232",
+      "date": "2026-11-13",
+      "start_datetime": "2026-11-13T11:34:20",
+      "type": "GravelRide",
+      "name": "Affoltern am Albis Gravel/Unpaved Cycling",
+      "interval_summary": [
+        "1x 56m12s 124bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3372s@124bpm",
+          "duration_secs": 3372,
+          "avg_hr": 124,
+          "max_hr": 164,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 131,
+          "max_hr": 131,
+          "zone": 1
         }
       ]
     }
