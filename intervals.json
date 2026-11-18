@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:18:04.670533",
+  "generated_at": "2026-11-18T20:50:31.697030",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -1225,6 +1225,28 @@
           "max_hr": 179,
           "zone": 7,
           "training_load": 0.045451872
+        }
+      ]
+    },
+    {
+      "activity_id": "i211741767",
+      "date": "2026-11-18",
+      "start_datetime": "2026-11-18T17:34:07",
+      "type": "VirtualRide",
+      "name": "Post-Test Recovery Spin",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2108,
+          "avg_power": 139,
+          "max_power": 209,
+          "avg_hr": 123,
+          "max_hr": 136,
+          "avg_cadence": 90.629036,
+          "zone": 1,
+          "training_load": 19.641525,
+          "decoupling": 18.624184
         }
       ]
     }

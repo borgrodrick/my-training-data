@@ -65,15 +65,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 3.3,
-      "total_training_formatted": "3h17m",
-      "total_activities": 4,
-      "total_tss": 206
+      "total_training_hours": 3.88,
+      "total_training_formatted": "3h53m",
+      "total_activities": 5,
+      "total_tss": 226
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-18T12:18:04.674845",
+    "last_updated": "2026-11-18T20:50:32.226724",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.117"
@@ -116,9 +116,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 56,
-        "baseline_7d": 54,
-        "delta_bpm": 2
+        "value": 55,
+        "baseline_7d": 53.9,
+        "delta_bpm": 1.1
       },
       "sleep": {
         "status": "amber",
@@ -127,16 +127,16 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.89
+        "value": 0.95
       },
       "ri": {
         "status": "green",
-        "value": 0.9,
-        "value_yesterday": 1.12
+        "value": 0.91,
+        "value_yesterday": 1.11
       },
       "tsb": {
         "status": "green",
-        "value": 14.4
+        "value": 12.2
       }
     },
     "signal_summary": {
@@ -166,8 +166,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 3.3,
-    "total_activities": 4,
+    "total_duration_decimal_hours": 3.88,
+    "total_activities": 5,
     "by_activity_type": {
       "GravelRide": {
         "duration_decimal_hours": 2.79,
@@ -182,13 +182,13 @@
         }
       },
       "VirtualRide": {
-        "duration_decimal_hours": 0.51,
-        "count": 2,
-        "tss": 27,
-        "distance_km": 15.1,
+        "duration_decimal_hours": 1.09,
+        "count": 3,
+        "tss": 47,
+        "distance_km": 32.3,
         "display": {
           "distance": {
-            "value": 15.1,
+            "value": 32.3,
             "unit": "km"
           }
         }
@@ -197,11 +197,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 41.4,
-      "atl": 27.01,
-      "tsb": 14.39,
-      "ramp_rate": -2.27,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 41.87,
+      "atl": 29.67,
+      "tsb": 12.2,
+      "ramp_rate": -1.8,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 238.8,
@@ -244,7 +244,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 56,
+      "resting_hr": 55,
       "hrv": 39.0,
       "sleep_quality": 3,
       "sleep_hours": 6.65,
@@ -266,7 +266,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 342,
+      "steps": 2840,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -278,86 +278,86 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.9,
-    "recovery_index_yesterday": 1.12,
+    "recovery_index": 0.91,
+    "recovery_index_yesterday": 1.11,
     "hrv_baseline_7d": 42.0,
-    "rhr_baseline_7d": 54,
+    "rhr_baseline_7d": 53.9,
     "hrv_baseline_28d": 43.4,
-    "rhr_baseline_28d": 52,
+    "rhr_baseline_28d": 52.0,
     "latest_hrv": 39.0,
-    "latest_rhr": 56,
-    "acwr": 0.89,
+    "latest_rhr": 55,
+    "acwr": 0.95,
     "acwr_interpretation": "optimal",
-    "monotony": 0.55,
+    "monotony": 0.62,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.55,
-    "primary_sport_tss_7d": 206.0,
-    "effective_monotony": 0.55,
+    "primary_sport_monotony": 0.62,
+    "primary_sport_tss_7d": 226.0,
+    "effective_monotony": 0.62,
     "multi_sport_detected": false,
-    "strain": 113.0,
-    "stress_tolerance": 2.1,
-    "load_recovery_ratio": 2.3,
-    "tss_7d_total": 206.0,
-    "tss_28d_total": 930.0,
+    "strain": 140.0,
+    "stress_tolerance": 2.3,
+    "load_recovery_ratio": 2.5,
+    "tss_7d_total": 226.0,
+    "tss_28d_total": 950.0,
     "zone_distribution_7d": {
-      "z1_hours": 2.07,
+      "z1_hours": 2.65,
       "z2_hours": 0.49,
       "z3_hours": 0.14,
       "z4_plus_hours": 0.6,
-      "total_hours": 3.3,
+      "total_hours": 3.89,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 4.4,
+    "grey_zone_percentage": 3.7,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 18.1,
+    "quality_intensity_percentage": 15.4,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.78,
+    "easy_time_ratio": 0.81,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 1,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 9210,
+      "z1_seconds": 11318,
       "z2_seconds": 520,
       "z3_seconds": 2150,
-      "z1_pct": 77.5,
-      "z2_pct": 4.4,
-      "z3_pct": 18.1,
-      "polarization_index": 2.51,
+      "z1_pct": 80.9,
+      "z2_pct": 3.7,
+      "z3_pct": 15.4,
+      "polarization_index": 2.52,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 9210,
+      "z1_seconds": 11318,
       "z2_seconds": 520,
       "z3_seconds": 2150,
-      "z1_pct": 77.5,
-      "z2_pct": 4.4,
-      "z3_pct": 18.1,
-      "polarization_index": 2.51,
+      "z1_pct": 80.9,
+      "z2_pct": 3.7,
+      "z3_pct": 15.4,
+      "polarization_index": 2.52,
       "classification": "Polarized",
       "zone_basis": "mixed",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 40079,
+      "z1_seconds": 42187,
       "z2_seconds": 4368,
       "z3_seconds": 9180,
-      "z1_pct": 74.7,
-      "z2_pct": 8.1,
-      "z3_pct": 17.1,
+      "z1_pct": 75.7,
+      "z2_pct": 7.8,
+      "z3_pct": 16.5,
       "polarization_index": 2.2,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 18303,
+      "z1_seconds": 20411,
       "z2_seconds": 1642,
       "z3_seconds": 5041,
-      "z1_pct": 73.3,
-      "z2_pct": 6.6,
-      "z3_pct": 20.2,
-      "polarization_index": 2.35,
+      "z1_pct": 75.3,
+      "z2_pct": 6.1,
+      "z3_pct": 18.6,
+      "polarization_index": 2.36,
       "classification": "Polarized",
       "zone_basis": "mixed",
       "sport": "cycling"
@@ -378,8 +378,8 @@
       "efficiency_factor": {
         "mean_ef_7d": null,
         "mean_ef_28d": null,
-        "qualifying_sessions_7d": 0,
-        "qualifying_sessions_28d": 0,
+        "qualifying_sessions_7d": 1,
+        "qualifying_sessions_28d": 1,
         "trend": null,
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
@@ -394,9 +394,9 @@
       "tid_comparison": {
         "classification_7d": "Polarized",
         "classification_28d": "Polarized",
-        "pi_7d": 2.51,
+        "pi_7d": 2.52,
         "pi_28d": 2.2,
-        "pi_delta": 0.31,
+        "pi_delta": 0.32,
         "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
@@ -579,11 +579,11 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.5,
+    "consistency_index": 1.0,
     "consistency_details": {
       "planned_days": 2,
-      "completed_days": 3,
-      "matched_days": 1,
+      "completed_days": 4,
+      "matched_days": 2,
       "planned_dates": [
         "2026-11-17",
         "2026-11-18"
@@ -591,7 +591,8 @@
       "completed_dates": [
         "2026-11-13",
         "2026-11-14",
-        "2026-11-17"
+        "2026-11-17",
+        "2026-11-18"
       ]
     },
     "phase_detection": {
@@ -606,14 +607,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.61,
+          "planned_tss_delta": 2.51,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 2,
           "race_proximity": null,
-          "next_week_load": 1.13,
+          "next_week_load": 0.56,
           "plan_coverage_current_week": 1.25,
-          "plan_coverage_next_week": 3.5
+          "plan_coverage_next_week": 2.25
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -646,12 +647,12 @@
     "p_max": 837,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-18T12:18:04.673669",
+    "calculation_timestamp": "2026-11-18T20:50:32.225507",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 4,
-      "activities_28d": 15,
+      "activities_7d": 5,
+      "activities_28d": 16,
       "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
@@ -660,6 +661,82 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i211741767",
+      "date": "2026-11-18T17:34:07",
+      "type": "VirtualRide",
+      "name": "Post-Test Recovery Spin",
+      "duration_hours": 0.59,
+      "duration_formatted": "35m7s",
+      "distance_km": 17.24,
+      "tss": 20,
+      "intensity_factor": 57.916668,
+      "avg_power": 139,
+      "normalized_power": 139,
+      "avg_hr": 123,
+      "max_hr": 136,
+      "avg_cadence": 90.629036,
+      "avg_speed": 29.5,
+      "avg_speed_unit": "KPH",
+      "max_speed": 30.2,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "BFT",
+      "work_kj": 293.7,
+      "calories": 293,
+      "carbs_used": 79,
+      "carbs_ingested": null,
+      "variability_index": 1.0,
+      "decoupling": 5.3561597,
+      "efficiency_factor": 1.1300813,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 17.24,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": {
+          "value": 29.5,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 30.2,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 917,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 2106,
+          "z2_time": 2,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false,
+      "has_dfa": false
+    },
     {
       "id": "i211248441",
       "date": "2026-11-17T15:01:50",
@@ -2963,7 +3040,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 56,
+      "resting_hr": 55,
       "hrv_rmssd": 39.0,
       "hrv_sdnn": null,
       "sleep_hours": 6.65,
@@ -2989,7 +3066,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 342,
+      "steps": 2840,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3002,21 +3079,21 @@
   ],
   "planned_workouts": [
     {
-      "id": 157195585,
+      "id": 157633919,
       "date": "2026-11-18",
       "name": "Post-Test Recovery Spin",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 21,
+      "planned_tss": 20,
       "duration_hours": 0.58,
       "duration_formatted": "35m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Active 35m 50-70%"
+      "description": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Active 35m 50-66%"
     },
     {
-      "id": 157195586,
+      "id": 157633920,
       "date": "2026-11-19",
       "name": "Velo P1 W-A (Anatomical Adaptation)",
       "type": "WORKOUT",
@@ -3030,124 +3107,124 @@
       "description": "Perform in Hevy App -> Routine: \"Velo P1 W-A (Anatomical Adaptation)\"\n\n1. Bench Press (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face up on a flat bench or floor, holding dumbbells at chest level with feet flat on the floor. The Movement: Press dumbbells upward over chest until arms are extended, then lower with control until elb...\n2. Shoulder Press (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand or sit upright holding dumbbells at shoulder level with palms facing inward. The Movement: Press right dumbbell overhead while gently rotating torso to the left. Lower back down and repeat on opposite...\n3. Chest Fly (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face up holding dumbbells directly above chest with palms facing each other and a slight bend in elbows. The Movement: Open arms wide to sides in an arc until chest stretches, then squeeze chest muscles...\n4. Front Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall with your feet hip-width apart to create a solid base. Hold a dumbbell in each hand resting against the front of your thighs. Your palms should be facing your legs (a pronated grip). The Movement...\n5. Lateral Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall with your feet hip-width apart. Hold a dumbbell in each hand hanging down at your sides. Your palms should be facing inward toward your outer thighs (a neutral grip). The Movement: Hinge forward ...\n6. Romanian Deadlift (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet hip-width apart holding dumbbells in front of thighs with knees slightly soft. The Movement: Hinge at hips pushing glutes backward while keeping dumbbells close to legs until feeling hamstri...\n7. Lying Dumbbell Hamstring Curl \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face down (prone) flat on an exercise mat or a bench with your legs extended. Place a dumbbell vertically by your feet and grip the handle firmly between the arches of your feet. Flex your feet toward y...\n8. Hip Thrust (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Rest upper back on a bench with knees bent at 90 degrees and dumbbell resting safely across hips. The Movement: Drive through heels and extend hips upward until torso and thighs form a straight line. Squeez...\n9. Kettlebell Swing \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet wider than hip-width holding dumbbells between legs with soft knees. The Movement: Hinge at hips sending dumbbells back between thighs, then explosively snap hips forward to swing dumbbells ...\n\nStrength Phase: Anatomical Adaptation (AA)\nFocus: Velo P1 W-A (Anatomical Adaptation)"
     },
     {
-      "id": 157195587,
+      "id": 157633921,
       "date": "2026-11-20",
       "name": "Aerobic Foundation",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 26,
+      "planned_tss": 24,
       "duration_hours": 0.5,
       "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Purpose: Easy Rides are the most important type of ride you can do and are the ride type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, efficiency, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 10m 50-70%\n- Active 20m 70-83%"
+      "description": "Purpose: Easy Rides are the most important type of ride you can do and are the ride type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, efficiency, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 10m 50-66%\n- Active 20m 66-83%"
     },
     {
-      "id": 157195589,
+      "id": 157633925,
       "date": "2026-11-21",
       "name": "Muscular Force / Tempo Session",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 61,
+      "planned_tss": 62,
       "duration_hours": 0.85,
       "duration_formatted": "51m",
-      "workout_summary": "5m @144W | 5m @184W | 12\u00d71m @282W / 2m rec | 5m @144W",
+      "workout_summary": "5m @139W | 5m @178W | 12\u00d71m @290W / 2m rec | 5m @139W",
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Purpose: Because the cycling force intervals are so short, the athlete will have to often use perceived effort to gauge intensity, as HR may not reach Zone 5 prior to the interval ending. This workout is an excellent time to go very hard, but aim to have each interval with a similar output and avoid fading near the end of the interval. If hills are unavailable, the athlete can simulate by reducing cadence to 65-75rpm and occasionally standing.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 5m 50-70%\n- Warm up 5m 70-83%\n- Hard 1 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 2 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 3 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 4 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 5 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 6 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 7 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 8 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 9 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 10 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 11 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Hard 12 of 12 1m 110-125%\n- Easy 2m 50-70%\n- Cool Down 5m 50-70%"
+      "description": "Purpose: Because the cycling force intervals are so short, the athlete will have to often use perceived effort to gauge intensity, as HR may not reach Zone 5 prior to the interval ending. This workout is an excellent time to go very hard, but aim to have each interval with a similar output and avoid fading near the end of the interval. If hills are unavailable, the athlete can simulate by reducing cadence to 65-75rpm and occasionally standing.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 5m 50-66%\n- Warm up 5m 66-83%\n- Hard 1 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 2 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 3 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 4 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 5 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 6 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 7 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 8 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 9 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 10 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 11 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Hard 12 of 12 1m 112-130%\n- Easy 2m 50-66%\n- Cool Down 5m 50-66%"
     },
     {
-      "id": 157195590,
+      "id": 157633930,
       "date": "2026-11-22",
       "name": "Long Endurance Ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 100,
+      "planned_tss": 94,
       "duration_hours": 1.75,
       "duration_formatted": "1h45m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Purpose: Easy Rides are the most important type of ride you can do and are the ride type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, efficiency, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 10m 50-70%\n- Active 95m 70-83%"
+      "description": "Purpose: Easy Rides are the most important type of ride you can do and are the ride type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, efficiency, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 10m 50-66%\n- Active 95m 66-83%"
     },
     {
-      "id": 157195656,
+      "id": 157633938,
       "date": "2026-11-24",
       "name": "Aerobic Base Row (Ergometer)",
       "type": "WORKOUT",
       "sport_type": "Rowing",
       "planned_tss": 24,
-      "duration_hours": 0.45,
-      "duration_formatted": "27m",
-      "workout_summary": "5m @98bpm | 3\u00d75m / 3m rec | 5m @89bpm",
+      "duration_hours": 0.57,
+      "duration_formatted": "34m",
+      "workout_summary": "5m | 3\u00d75m / 3m rec | 5m",
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Purpose: Warm-up: 5 min easy ramp (18-20 spm). Main Set (3 rounds): 5 min row at low intensity (18-22 spm), 3 min rest or light paddle. Cool-down: 5 min light row and stretch. Focus: Smooth sequencing and pacing. Optional: combine with 15 min jog/walk (1 min on / 1 min off).\n\nPacing Strategy:\n\nWarmup\n- 5m ramp 50-65% LTHR 18-20spm\n\n3x\n- Low Intensity 5m Z2 HR 20spm\n- Rest or Light Row 3m 40% LTHR 18spm\n\nCooldown\n- 5m ramp 60-45% LTHR 18spm"
+      "description": "Purpose: Warm-up: 5 min easy ramp (18-20 spm). Main Set (3 rounds): 5 min row at low intensity (18-22 spm), 3 min rest or light paddle. Cool-down: 5 min light row and stretch. Focus: Smooth sequencing and pacing. Optional: combine with 15 min jog/walk (1 min on / 1 min off).\n\nPacing Strategy:\n\nWarmup\n- 5m Z1-Z2 Pace 18-20spm\n\n3x\n- Low Intensity 5m Z2 Pace 20spm\n- Rest or Light Row 3m Z1-Z2 Pace 18spm\n\nCooldown\n- 5m Z1 Pace 18spm"
     },
     {
-      "id": 157195657,
+      "id": 157633941,
       "date": "2026-11-24",
       "name": "Cadence Spin & Pedaling Economy",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 24,
-      "duration_hours": 0.45,
-      "duration_formatted": "27m",
+      "planned_tss": 14,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 25m 50-70%"
+      "description": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 25m 50-66%"
     },
     {
-      "id": 157195658,
+      "id": 157633942,
       "date": "2026-11-25",
       "name": "Aerobic Base Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 28,
-      "duration_hours": 0.53,
-      "duration_formatted": "32m",
+      "planned_tss": 15,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\n- Warm-up 5m 70% LTHR\n- Active 25m 70% LTHR"
+      "description": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\n- Warm-up 5m Z1 HR\n- Active 25m Z1 HR"
     },
     {
-      "id": 157195659,
+      "id": 157633946,
       "date": "2026-11-25",
       "name": "Velo P1 W-A (Anatomical Adaptation)",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": 31,
-      "duration_hours": 0.58,
-      "duration_formatted": "35m",
+      "duration_hours": 0.15,
+      "duration_formatted": "9m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
       "description": "Perform in Hevy App -> Routine: \"Velo P1 W-A (Anatomical Adaptation)\"\n\n1. Bench Press (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face up on a flat bench or floor, holding dumbbells at chest level with feet flat on the floor. The Movement: Press dumbbells upward over chest until arms are extended, then lower with control until elb...\n2. Shoulder Press (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand or sit upright holding dumbbells at shoulder level with palms facing inward. The Movement: Press right dumbbell overhead while gently rotating torso to the left. Lower back down and repeat on opposite...\n3. Chest Fly (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face up holding dumbbells directly above chest with palms facing each other and a slight bend in elbows. The Movement: Open arms wide to sides in an arc until chest stretches, then squeeze chest muscles...\n4. Front Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall with your feet hip-width apart to create a solid base. Hold a dumbbell in each hand resting against the front of your thighs. Your palms should be facing your legs (a pronated grip). The Movement...\n5. Lateral Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall with your feet hip-width apart. Hold a dumbbell in each hand hanging down at your sides. Your palms should be facing inward toward your outer thighs (a neutral grip). The Movement: Hinge forward ...\n6. Romanian Deadlift (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet hip-width apart holding dumbbells in front of thighs with knees slightly soft. The Movement: Hinge at hips pushing glutes backward while keeping dumbbells close to legs until feeling hamstri...\n7. Lying Dumbbell Hamstring Curl \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face down (prone) flat on an exercise mat or a bench with your legs extended. Place a dumbbell vertically by your feet and grip the handle firmly between the arches of your feet. Flex your feet toward y...\n8. Hip Thrust (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Rest upper back on a bench with knees bent at 90 degrees and dumbbell resting safely across hips. The Movement: Drive through heels and extend hips upward until torso and thighs form a straight line. Squeez...\n9. Kettlebell Swing \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet wider than hip-width holding dumbbells between legs with soft knees. The Movement: Hinge at hips sending dumbbells back between thighs, then explosively snap hips forward to swing dumbbells ...\n\nStrength Phase: Anatomical Adaptation (AA)\nFocus: Velo P1 W-A (Anatomical Adaptation)"
     },
     {
-      "id": 157195662,
+      "id": 157633951,
       "date": "2026-11-26",
-      "name": "Aerobic Cross-Country Ski",
+      "name": "Aerobic Base Swim",
       "type": "WORKOUT",
-      "sport_type": "NordicSki",
-      "planned_tss": 11,
-      "duration_hours": 0.45,
-      "duration_formatted": "27m",
+      "sport_type": "Swim",
+      "planned_tss": 37,
+      "duration_hours": 0.72,
+      "duration_formatted": "43m2s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description_preview": "Purpose: Promote active blood circulation to accelerate muscle repair and metabolic waste clearance without inducing training stress.\nPacing Strategy:\n\u2022 Cadence: Keep pedals spinning smoothly at 90\u201395 RPM with minimal chain tension."
+      "description_preview": "Purpose: Endurance Swims feature a sustained, steady effort in Zone 2. They serve to develop aerobic fitness, endurance, and efficiency, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm up 7m33s Z2 Pace"
     },
     {
-      "id": 157195666,
+      "id": 157633955,
       "date": "2026-11-26",
       "name": "Evening Easy Aerobic Spin",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 15,
+      "planned_tss": 14,
       "duration_hours": 0.42,
       "duration_formatted": "25m",
       "workout_summary": null,
@@ -3156,35 +3233,7 @@
       "description_preview": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM."
     },
     {
-      "id": 157195678,
-      "date": "2026-11-26",
-      "name": "Aerobic Cross-Country Ski",
-      "type": "WORKOUT",
-      "sport_type": "NordicSki",
-      "planned_tss": 11,
-      "duration_hours": 0.45,
-      "duration_formatted": "27m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Purpose: Promote active blood circulation to accelerate muscle repair and metabolic waste clearance without inducing training stress.\nPacing Strategy:\n\u2022 Cadence: Keep pedals spinning smoothly at 90\u201395 RPM with minimal chain tension."
-    },
-    {
-      "id": 157195682,
-      "date": "2026-11-26",
-      "name": "Evening Easy Aerobic Spin",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 15,
-      "duration_hours": 0.42,
-      "duration_formatted": "25m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM."
-    },
-    {
-      "id": 157195669,
+      "id": 157633956,
       "date": "2026-11-28",
       "name": "Velo P1 W-B (Anatomical Adaptation)",
       "type": "WORKOUT",
@@ -3198,12 +3247,12 @@
       "description_preview": "Perform in Hevy App -> Routine: \"Velo P1 W-B (Anatomical Adaptation)\"\n1. Goblet Squat \u2014 2 sets x 12-15 reps | Rest 60s\nCue: The Setup: Stand with feet shoulder-width apart, holding one dumbbell vertically against chest with both hands. The Movement: Send hips back and down to lower into squat until thighs are parallel to floor, then drive ..."
     },
     {
-      "id": 157195672,
+      "id": 157633958,
       "date": "2026-11-28",
       "name": "Unstructured Mixed-Terrain Ride (Gravel/Trail)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 36,
+      "planned_tss": 34,
       "duration_hours": 0.67,
       "duration_formatted": "40m",
       "workout_summary": null,
@@ -3212,137 +3261,95 @@
       "description_preview": "Purpose: Enhance mitochondrial density, fat oxidation efficiency, and aerobic capillary vascularization.\nPacing Strategy:\n\u2022 Cadence: Maintain a relaxed, natural cadence (85\u201392 RPM)."
     },
     {
-      "id": 157195683,
-      "date": "2026-11-28",
-      "name": "Velo P1 W-B (Anatomical Adaptation)",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 28,
-      "duration_hours": 0.13,
-      "duration_formatted": "8m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Perform in Hevy App -> Routine: \"Velo P1 W-B (Anatomical Adaptation)\"\n1. Goblet Squat \u2014 2 sets x 12-15 reps | Rest 60s\nCue: The Setup: Stand with feet shoulder-width apart, holding one dumbbell vertically against chest with both hands. The Movement: Send hips back and down to lower into squat until thighs are parallel to floor, then drive ..."
-    },
-    {
-      "id": 157195684,
-      "date": "2026-11-28",
-      "name": "Unstructured Mixed-Terrain Ride (Gravel/Trail)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 36,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Purpose: Enhance mitochondrial density, fat oxidation efficiency, and aerobic capillary vascularization.\nPacing Strategy:\n\u2022 Cadence: Maintain a relaxed, natural cadence (85\u201392 RPM)."
-    },
-    {
-      "id": 157195673,
+      "id": 157633961,
       "date": "2026-11-29",
       "name": "Extended Aerobic Endurance Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 36,
+      "planned_tss": 41,
       "duration_hours": 1.33,
       "duration_formatted": "1h20m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description_preview": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm-up 5m 70% LTHR"
+      "description_preview": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm-up 5m Z1 HR"
     },
     {
-      "id": 157195687,
-      "date": "2026-11-29",
-      "name": "Extended Aerobic Endurance Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 36,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm-up 5m 70% LTHR"
-    },
-    {
-      "id": 157195356,
+      "id": 157633969,
       "date": "2026-12-01",
       "name": "Aerobic Base Row (Ergometer)",
       "type": "WORKOUT",
       "sport_type": "Rowing",
       "planned_tss": 25,
-      "duration_hours": 0.47,
-      "duration_formatted": "28m",
-      "workout_summary": "5m @98bpm | 3\u00d75m / 3m rec | 5m @89bpm",
+      "duration_hours": 0.57,
+      "duration_formatted": "34m",
+      "workout_summary": "5m | 3\u00d75m / 3m rec | 5m",
       "has_terrain": false,
       "start_time": "07:00"
     },
     {
-      "id": 157195357,
+      "id": 157633971,
       "date": "2026-12-01",
       "name": "Cadence Spin & Pedaling Economy",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 25,
-      "duration_hours": 0.47,
-      "duration_formatted": "28m",
+      "planned_tss": 17,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
       "description_preview": "Purpose: Promote active blood circulation to accelerate muscle repair and metabolic waste clearance without inducing training stress.\nPacing Strategy:\n\u2022 Cadence: Keep pedals spinning smoothly at 90\u201395 RPM with minimal chain tension."
     },
     {
-      "id": 157195359,
+      "id": 157633972,
       "date": "2026-12-02",
       "name": "Aerobic Base Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 29,
-      "duration_hours": 0.55,
-      "duration_formatted": "33m",
+      "planned_tss": 18,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description_preview": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm-up 5m 70% LTHR"
+      "description_preview": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm-up 5m Z1 HR"
     },
     {
-      "id": 157195361,
+      "id": 157633973,
       "date": "2026-12-02",
       "name": "Velo P2 W-A (Hypertrophy)",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": 45,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "duration_hours": 0.15,
+      "duration_formatted": "9m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
       "description_preview": "Perform in Hevy App -> Routine: \"Velo P2 W-A (Hypertrophy)\"\n1. Bench Press (Dumbbell) \u2014 3 sets x 8-12 reps | Rest 60s\nCue: The Setup: Lie face up on a flat bench or floor, holding dumbbells at chest level with feet flat on the floor. The Movement: Press dumbbells upward over chest until arms are extended, then lower with control until elb..."
     },
     {
-      "id": 157195368,
+      "id": 157633977,
       "date": "2026-12-03",
-      "name": "Aerobic Cross-Country Ski",
+      "name": "Aerobic Base Swim",
       "type": "WORKOUT",
-      "sport_type": "NordicSki",
-      "planned_tss": 12,
-      "duration_hours": 0.47,
-      "duration_formatted": "28m",
+      "sport_type": "Swim",
+      "planned_tss": 37,
+      "duration_hours": 0.72,
+      "duration_formatted": "43m2s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description_preview": "Purpose: Promote active blood circulation to accelerate muscle repair and metabolic waste clearance without inducing training stress.\nPacing Strategy:\n\u2022 Cadence: Keep pedals spinning smoothly at 90\u201395 RPM with minimal chain tension."
+      "description_preview": "Purpose: Endurance Swims feature a sustained, steady effort in Zone 2. They serve to develop aerobic fitness, endurance, and efficiency, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm up 7m33s Z2 Pace"
     },
     {
-      "id": 157195370,
+      "id": 157633982,
       "date": "2026-12-03",
       "name": "Evening Easy Aerobic Spin",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 18,
+      "planned_tss": 17,
       "duration_hours": 0.5,
       "duration_formatted": "30m",
       "workout_summary": null,
@@ -3351,35 +3358,7 @@
       "description_preview": "Purpose: Promote active blood circulation to accelerate muscle repair and metabolic waste clearance without inducing training stress.\nPacing Strategy:\n\u2022 Cadence: Keep pedals spinning smoothly at 90\u201395 RPM with minimal chain tension."
     },
     {
-      "id": 157195375,
-      "date": "2026-12-03",
-      "name": "Aerobic Cross-Country Ski",
-      "type": "WORKOUT",
-      "sport_type": "NordicSki",
-      "planned_tss": 12,
-      "duration_hours": 0.47,
-      "duration_formatted": "28m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Purpose: Promote active blood circulation to accelerate muscle repair and metabolic waste clearance without inducing training stress.\nPacing Strategy:\n\u2022 Cadence: Keep pedals spinning smoothly at 90\u201395 RPM with minimal chain tension."
-    },
-    {
-      "id": 157195376,
-      "date": "2026-12-03",
-      "name": "Evening Easy Aerobic Spin",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 18,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Purpose: Promote active blood circulation to accelerate muscle repair and metabolic waste clearance without inducing training stress.\nPacing Strategy:\n\u2022 Cadence: Keep pedals spinning smoothly at 90\u201395 RPM with minimal chain tension."
-    },
-    {
-      "id": 157195372,
+      "id": 157633986,
       "date": "2026-12-05",
       "name": "Velo P2 W-B (Hypertrophy)",
       "type": "WORKOUT",
@@ -3393,12 +3372,12 @@
       "description_preview": "Perform in Hevy App -> Routine: \"Velo P2 W-B (Hypertrophy)\"\n1. Goblet Squat \u2014 3 sets x 8-12 reps | Rest 60s\nCue: The Setup: Stand with feet shoulder-width apart, holding one dumbbell vertically against chest with both hands. The Movement: Send hips back and down to lower into squat until thighs are parallel to floor, then drive ..."
     },
     {
-      "id": 157195373,
+      "id": 157633989,
       "date": "2026-12-05",
       "name": "Unstructured Mixed-Terrain Ride (Gravel/Trail)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 36,
+      "planned_tss": 34,
       "duration_hours": 0.67,
       "duration_formatted": "40m",
       "workout_summary": null,
@@ -3407,77 +3386,35 @@
       "description_preview": "Purpose: Enhance mitochondrial density, fat oxidation efficiency, and aerobic capillary vascularization.\nPacing Strategy:\n\u2022 Cadence: Maintain a relaxed, natural cadence (85\u201392 RPM)."
     },
     {
-      "id": 157195377,
-      "date": "2026-12-05",
-      "name": "Velo P2 W-B (Hypertrophy)",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 40,
-      "duration_hours": 0.13,
-      "duration_formatted": "8m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Perform in Hevy App -> Routine: \"Velo P2 W-B (Hypertrophy)\"\n1. Goblet Squat \u2014 3 sets x 8-12 reps | Rest 60s\nCue: The Setup: Stand with feet shoulder-width apart, holding one dumbbell vertically against chest with both hands. The Movement: Send hips back and down to lower into squat until thighs are parallel to floor, then drive ..."
-    },
-    {
-      "id": 157195378,
-      "date": "2026-12-05",
-      "name": "Unstructured Mixed-Terrain Ride (Gravel/Trail)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 36,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Purpose: Enhance mitochondrial density, fat oxidation efficiency, and aerobic capillary vascularization.\nPacing Strategy:\n\u2022 Cadence: Maintain a relaxed, natural cadence (85\u201392 RPM)."
-    },
-    {
-      "id": 157195374,
+      "id": 157633990,
       "date": "2026-12-06",
       "name": "Extended Aerobic Endurance Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 38,
+      "planned_tss": 43,
       "duration_hours": 1.42,
       "duration_formatted": "1h25m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
-      "description_preview": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm-up 5m 70% LTHR"
-    },
-    {
-      "id": 157195379,
-      "date": "2026-12-06",
-      "name": "Extended Aerobic Endurance Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 38,
-      "duration_hours": 1.42,
-      "duration_formatted": "1h25m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description_preview": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm-up 5m 70% LTHR"
+      "description_preview": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\nPacing Strategy:\n- Warm-up 5m Z1 HR"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 33,
+    "attempted": 23,
     "success": 3,
     "patternA": 2,
     "patternB": 1,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 30
+    "bail_no_match": 20
   },
   "weekly_summary": {
-    "total_training_hours": 3.3,
-    "total_training_formatted": "3h17m",
-    "total_tss": 206,
-    "activities_count": 4,
+    "total_training_hours": 3.88,
+    "total_training_formatted": "3h53m",
+    "total_tss": 226,
+    "activities_count": 5,
     "avg_hrv": 42.0,
-    "avg_resting_hr": 54.0
+    "avg_resting_hr": 53.9
   },
   "race_calendar": {
     "next_race": null,
