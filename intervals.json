@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T09:03:08.969069",
+  "generated_at": "2026-11-20T17:51:02.913505",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -1678,6 +1678,92 @@
           "zone": 1,
           "training_load": 3.2042825,
           "decoupling": -27.415148
+        }
+      ]
+    },
+    {
+      "activity_id": "i212473977",
+      "date": "2026-11-20",
+      "start_datetime": "2026-11-20T13:50:26",
+      "type": "Run",
+      "name": "Affoltern am Albis Running",
+      "interval_summary": [
+        "4x 6m44s 152bpm",
+        "1x 8m36s 159bpm",
+        "1x 5m22s 156bpm",
+        "1x 2s 166bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "404s@152bpm77rpm",
+          "duration_secs": 403,
+          "avg_hr": 149,
+          "max_hr": 166,
+          "avg_cadence": 77.75312,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 154,
+          "max_hr": 155,
+          "avg_cadence": 77.0,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "516s@159bpm69rpm",
+          "duration_secs": 516,
+          "avg_hr": 159,
+          "max_hr": 169,
+          "avg_cadence": 68.934105,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "404s@152bpm77rpm",
+          "duration_secs": 400,
+          "avg_hr": 151,
+          "max_hr": 168,
+          "avg_cadence": 78.7825,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "404s@152bpm77rpm",
+          "duration_secs": 369,
+          "avg_hr": 150,
+          "max_hr": 168,
+          "avg_cadence": 77.111115,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "404s@152bpm77rpm",
+          "duration_secs": 444,
+          "avg_hr": 156,
+          "max_hr": 167,
+          "avg_cadence": 75.313065,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "322s@156bpm70rpm",
+          "duration_secs": 322,
+          "avg_hr": 156,
+          "max_hr": 169,
+          "avg_cadence": 70.413795,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "2s@166bpm55rpm",
+          "duration_secs": 2,
+          "avg_hr": 166,
+          "max_hr": 166,
+          "avg_cadence": 55.0,
+          "zone": 3
         }
       ]
     }
