@@ -67,13 +67,13 @@
     "quick_stats": {
       "total_training_hours": 3.04,
       "total_training_formatted": "3h2m",
-      "total_activities": 6,
+      "total_activities": 7,
       "total_tss": 163
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-23T02:30:30.162767",
+    "last_updated": "2026-11-23T11:18:33.451187",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.117"
@@ -109,10 +109,10 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 41.5,
-        "delta_pct": null
+        "status": "green",
+        "value": 41.0,
+        "baseline_7d": 41.4,
+        "delta_pct": -1.0
       },
       "rhr": {
         "status": "green",
@@ -121,29 +121,29 @@
         "delta_bpm": -0.4
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.58,
+        "quality": 2
       },
       "acwr": {
         "status": "green",
         "value": 0.75
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
+        "status": "green",
+        "value": 1.0,
         "value_yesterday": 1.21
       },
       "tsb": {
         "status": "green",
-        "value": 15.7
+        "value": 14.1
       }
     },
     "signal_summary": {
-      "green": 3,
+      "green": 6,
       "amber": 0,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Base",
@@ -153,7 +153,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 3 green, 0 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -167,7 +167,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 3.04,
-    "total_activities": 6,
+    "total_activities": 7,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 0.98,
@@ -189,6 +189,18 @@
         "display": {
           "distance": {
             "value": 6.0,
+            "unit": "km"
+          }
+        }
+      },
+      "Unknown": {
+        "duration_decimal_hours": 0.0,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0,
+        "display": {
+          "distance": {
+            "value": 0.0,
             "unit": "km"
           }
         }
@@ -221,10 +233,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.69,
-      "atl": 24.03,
-      "tsb": 15.66,
-      "ramp_rate": -3.08,
+      "ctl": 40.01,
+      "atl": 25.89,
+      "tsb": 14.12,
+      "ramp_rate": -2.75,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -269,11 +281,11 @@
         }
       },
       "resting_hr": 53,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "hrv": 41.0,
+      "sleep_quality": 2,
+      "sleep_hours": 7.58,
+      "sleep_formatted": "7h35m",
+      "sleep_score": 84.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -290,7 +302,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 229,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -302,13 +314,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
+    "recovery_index": 1.0,
     "recovery_index_yesterday": 1.21,
-    "hrv_baseline_7d": 41.5,
+    "hrv_baseline_7d": 41.4,
     "rhr_baseline_7d": 53.4,
-    "hrv_baseline_28d": 42.6,
+    "hrv_baseline_28d": 42.5,
     "rhr_baseline_28d": 52.6,
-    "latest_hrv": null,
+    "latest_hrv": 41.0,
     "latest_rhr": 53,
     "acwr": 0.75,
     "acwr_interpretation": "undertraining",
@@ -321,7 +333,7 @@
     "multi_sport_detected": true,
     "strain": 155.0,
     "stress_tolerance": 1.6,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 1.6,
     "tss_7d_total": 163.0,
     "tss_28d_total": 873.0,
     "zone_distribution_7d": {
@@ -603,24 +615,26 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.8,
+    "consistency_index": 0.83,
     "consistency_details": {
-      "planned_days": 5,
-      "completed_days": 5,
-      "matched_days": 4,
+      "planned_days": 6,
+      "completed_days": 6,
+      "matched_days": 5,
       "planned_dates": [
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-23"
       ],
       "completed_dates": [
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-23"
       ]
     },
     "phase_detection": {
@@ -675,13 +689,13 @@
     "p_max": 833,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-23T02:30:30.161869",
+    "calculation_timestamp": "2026-11-23T11:18:33.450301",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 6,
-      "activities_28d": 16,
-      "planned_workouts_7d": 6,
+      "activities_7d": 7,
+      "activities_28d": 17,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -689,6 +703,57 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "21091304359",
+      "date": "2026-11-23T07:17:55",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "BFT",
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false
+    },
     {
       "id": "i213405209",
       "date": "2026-11-22T20:36:43",
@@ -3099,12 +3164,12 @@
         "weight": null
       },
       "resting_hr": 53,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 41.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.58,
+      "sleep_formatted": "7h35m",
+      "sleep_quality": 2,
+      "sleep_score": 84.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3124,7 +3189,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 229,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3136,6 +3201,34 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 157633941,
+      "date": "2026-11-23",
+      "name": "Cadence Spin & Pedaling Economy",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 14,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "07:00",
+      "description": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 25m 50-66%"
+    },
+    {
+      "id": 157633946,
+      "date": "2026-11-23",
+      "name": "Velo P1 W-A (Anatomical Adaptation)",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 31,
+      "duration_hours": 0.15,
+      "duration_formatted": "9m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "07:00",
+      "description": "Perform in Hevy App -> Routine: \"Velo P1 W-A (Anatomical Adaptation)\"\n\n1. Bench Press (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face up on a flat bench or floor, holding dumbbells at chest level with feet flat on the floor. The Movement: Press dumbbells upward over chest until arms are extended, then lower with control until elb...\n2. Shoulder Press (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand or sit upright holding dumbbells at shoulder level with palms facing inward. The Movement: Press right dumbbell overhead while gently rotating torso to the left. Lower back down and repeat on opposite...\n3. Chest Fly (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face up holding dumbbells directly above chest with palms facing each other and a slight bend in elbows. The Movement: Open arms wide to sides in an arc until chest stretches, then squeeze chest muscles...\n4. Front Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall with your feet hip-width apart to create a solid base. Hold a dumbbell in each hand resting against the front of your thighs. Your palms should be facing your legs (a pronated grip). The Movement...\n5. Lateral Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall with your feet hip-width apart. Hold a dumbbell in each hand hanging down at your sides. Your palms should be facing inward toward your outer thighs (a neutral grip). The Movement: Hinge forward ...\n6. Romanian Deadlift (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet hip-width apart holding dumbbells in front of thighs with knees slightly soft. The Movement: Hinge at hips pushing glutes backward while keeping dumbbells close to legs until feeling hamstri...\n7. Lying Dumbbell Hamstring Curl \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face down (prone) flat on an exercise mat or a bench with your legs extended. Place a dumbbell vertically by your feet and grip the handle firmly between the arches of your feet. Flex your feet toward y...\n8. Hip Thrust (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Rest upper back on a bench with knees bent at 90 degrees and dumbbell resting safely across hips. The Movement: Drive through heels and extend hips upward until torso and thighs form a straight line. Squeez...\n9. Kettlebell Swing \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet wider than hip-width holding dumbbells between legs with soft knees. The Movement: Hinge at hips sending dumbbells back between thighs, then explosively snap hips forward to swing dumbbells ...\n\nStrength Phase: Anatomical Adaptation (AA)\nFocus: Velo P1 W-A (Anatomical Adaptation)"
+    },
     {
       "id": 157633938,
       "date": "2026-11-24",
@@ -3151,20 +3244,6 @@
       "description": "Purpose: Warm-up: 5 min easy ramp (18-20 spm). Main Set (3 rounds): 5 min row at low intensity (18-22 spm), 3 min rest or light paddle. Cool-down: 5 min light row and stretch. Focus: Smooth sequencing and pacing. Optional: combine with 15 min jog/walk (1 min on / 1 min off).\n\nPacing Strategy:\n\nWarmup\n- 5m Z1-Z2 Pace 18-20spm\n\n3x\n- Low Intensity 5m Z2 Pace 20spm\n- Rest or Light Row 3m Z1-Z2 Pace 18spm\n\nCooldown\n- 5m Z1 Pace 18spm"
     },
     {
-      "id": 157633941,
-      "date": "2026-11-24",
-      "name": "Cadence Spin & Pedaling Economy",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 14,
-      "duration_hours": 0.42,
-      "duration_formatted": "25m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 25m 50-66%"
-    },
-    {
       "id": 157633942,
       "date": "2026-11-25",
       "name": "Aerobic Base Run",
@@ -3177,20 +3256,6 @@
       "has_terrain": false,
       "start_time": "07:00",
       "description": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\n- Warm-up 5m Z1 HR\n- Active 25m Z1 HR"
-    },
-    {
-      "id": 157633946,
-      "date": "2026-11-25",
-      "name": "Velo P1 W-A (Anatomical Adaptation)",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 31,
-      "duration_hours": 0.15,
-      "duration_formatted": "9m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description": "Perform in Hevy App -> Routine: \"Velo P1 W-A (Anatomical Adaptation)\"\n\n1. Bench Press (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face up on a flat bench or floor, holding dumbbells at chest level with feet flat on the floor. The Movement: Press dumbbells upward over chest until arms are extended, then lower with control until elb...\n2. Shoulder Press (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand or sit upright holding dumbbells at shoulder level with palms facing inward. The Movement: Press right dumbbell overhead while gently rotating torso to the left. Lower back down and repeat on opposite...\n3. Chest Fly (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face up holding dumbbells directly above chest with palms facing each other and a slight bend in elbows. The Movement: Open arms wide to sides in an arc until chest stretches, then squeeze chest muscles...\n4. Front Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall with your feet hip-width apart to create a solid base. Hold a dumbbell in each hand resting against the front of your thighs. Your palms should be facing your legs (a pronated grip). The Movement...\n5. Lateral Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall with your feet hip-width apart. Hold a dumbbell in each hand hanging down at your sides. Your palms should be facing inward toward your outer thighs (a neutral grip). The Movement: Hinge forward ...\n6. Romanian Deadlift (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet hip-width apart holding dumbbells in front of thighs with knees slightly soft. The Movement: Hinge at hips pushing glutes backward while keeping dumbbells close to legs until feeling hamstri...\n7. Lying Dumbbell Hamstring Curl \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Lie face down (prone) flat on an exercise mat or a bench with your legs extended. Place a dumbbell vertically by your feet and grip the handle firmly between the arches of your feet. Flex your feet toward y...\n8. Hip Thrust (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Rest upper back on a bench with knees bent at 90 degrees and dumbbell resting safely across hips. The Movement: Drive through heels and extend hips upward until torso and thighs form a straight line. Squeez...\n9. Kettlebell Swing \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet wider than hip-width holding dumbbells between legs with soft knees. The Movement: Hinge at hips sending dumbbells back between thighs, then explosively snap hips forward to swing dumbbells ...\n\nStrength Phase: Anatomical Adaptation (AA)\nFocus: Velo P1 W-A (Anatomical Adaptation)"
     },
     {
       "id": 157633951,
@@ -3400,8 +3465,8 @@
     "total_training_hours": 3.04,
     "total_training_formatted": "3h2m",
     "total_tss": 163,
-    "activities_count": 6,
-    "avg_hrv": 41.5,
+    "activities_count": 7,
+    "avg_hrv": 41.4,
     "avg_resting_hr": 53.4
   },
   "race_calendar": {
