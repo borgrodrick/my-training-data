@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:18:33.447607",
+  "generated_at": "2026-11-23T22:52:26.722150",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -1560,6 +1560,28 @@
           "max_hr": 166,
           "avg_cadence": 55.0,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i213729250",
+      "date": "2026-11-23",
+      "start_datetime": "2026-11-23T18:07:24",
+      "type": "VirtualRide",
+      "name": "Cadence Spin & Pedaling Economy",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1508,
+          "avg_power": 139,
+          "max_power": 232,
+          "avg_hr": 116,
+          "max_hr": 132,
+          "avg_cadence": 92.08223,
+          "zone": 1,
+          "training_load": 14.050959,
+          "decoupling": 7.810515
         }
       ]
     }
