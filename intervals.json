@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T06:52:53.551281",
+  "generated_at": "2026-11-24T18:46:20.894568",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -1582,6 +1582,81 @@
           "zone": 1,
           "training_load": 14.050959,
           "decoupling": 7.810515
+        }
+      ]
+    },
+    {
+      "activity_id": "i214172553",
+      "date": "2026-11-24",
+      "start_datetime": "2026-11-24T17:46:10",
+      "type": "Run",
+      "name": "Affoltern am Albis Running",
+      "interval_summary": [
+        "5x 5m45s 154bpm",
+        "1x 2m11s 156bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "345s@154bpm77rpm",
+          "duration_secs": 325,
+          "avg_hr": 151,
+          "max_hr": 174,
+          "avg_cadence": 78.36336,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 155,
+          "max_hr": 156,
+          "avg_cadence": 78.0,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "345s@154bpm77rpm",
+          "duration_secs": 335,
+          "avg_hr": 154,
+          "max_hr": 164,
+          "avg_cadence": 77.886566,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "345s@154bpm77rpm",
+          "duration_secs": 350,
+          "avg_hr": 154,
+          "max_hr": 162,
+          "avg_cadence": 76.43714,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "345s@154bpm77rpm",
+          "duration_secs": 356,
+          "avg_hr": 153,
+          "max_hr": 164,
+          "avg_cadence": 75.58427,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "345s@154bpm77rpm",
+          "duration_secs": 361,
+          "avg_hr": 157,
+          "max_hr": 166,
+          "avg_cadence": 76.2216,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "131s@156bpm75rpm",
+          "duration_secs": 131,
+          "avg_hr": 156,
+          "max_hr": 163,
+          "avg_cadence": 74.9313,
+          "zone": 2
         }
       ]
     }

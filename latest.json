@@ -65,15 +65,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 2.95,
-      "total_training_formatted": "2h57m",
-      "total_activities": 6,
-      "total_tss": 150
+      "total_training_hours": 3.9,
+      "total_training_formatted": "3h54m",
+      "total_activities": 8,
+      "total_tss": 185
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-24T06:52:53.556732",
+    "last_updated": "2026-11-24T18:46:21.509286",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.117"
@@ -106,10 +106,10 @@
   "alerts": [
     {
       "metric": "tid_distribution",
-      "value": 1.99,
+      "value": "Pyramidal",
       "severity": "warning",
-      "threshold": "7d PI < 2.0, 28d PI >= 2.0",
-      "context": "Acute depolarization: 7d PI 1.99 vs 28d PI 2.18. Grey zone or threshold work displacing polarized structure.",
+      "threshold": "7d/28d classification mismatch",
+      "context": "TID shift: 7d Pyramidal vs 28d Polarized. Training distribution changing.",
       "persistence_days": null,
       "tier": 3
     }
@@ -137,7 +137,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.72
+        "value": 0.85
       },
       "ri": {
         "status": "green",
@@ -146,7 +146,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 16.6
+        "value": 12.8
       }
     },
     "signal_summary": {
@@ -176,8 +176,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 2.95,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 3.9,
+    "total_activities": 8,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 0.98,
@@ -191,14 +191,26 @@
           }
         }
       },
-      "Run": {
-        "duration_decimal_hours": 0.67,
+      "Rowing": {
+        "duration_decimal_hours": 0.43,
         "count": 1,
-        "tss": 40,
-        "distance_km": 6.0,
+        "tss": 0,
+        "distance_km": 4.5,
         "display": {
           "distance": {
-            "value": 6.0,
+            "value": 4.5,
+            "unit": "km"
+          }
+        }
+      },
+      "Run": {
+        "duration_decimal_hours": 1.19,
+        "count": 2,
+        "tss": 75,
+        "distance_km": 11.4,
+        "display": {
+          "distance": {
+            "value": 11.4,
             "unit": "km"
           }
         }
@@ -243,18 +255,18 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.07,
-      "atl": 22.45,
-      "tsb": 16.62,
-      "ramp_rate": -2.69,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 39.9,
+      "atl": 27.1,
+      "tsb": 12.8,
+      "ramp_rate": -2.5,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 237.6,
       "w_prime": 19213,
       "w_prime_kj": 19.2,
       "p_max": 832,
-      "vo2max": null,
+      "vo2max": 52.0,
       "sports": {
         "cycling": {
           "lthr": 170,
@@ -312,7 +324,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 179,
+      "steps": 7854,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -332,44 +344,44 @@
     "rhr_baseline_28d": 52.8,
     "latest_hrv": 45.0,
     "latest_rhr": 56,
-    "acwr": 0.72,
-    "acwr_interpretation": "undertraining",
-    "monotony": 0.87,
-    "monotony_interpretation": "normal (primary sport 0.58, total 0.87 inflated by multi-sport)",
+    "acwr": 0.85,
+    "acwr_interpretation": "optimal",
+    "monotony": 1.14,
+    "monotony_interpretation": "normal (primary sport 0.58, total 1.14 inflated by multi-sport)",
     "primary_sport": "cycling",
     "primary_sport_monotony": 0.58,
     "primary_sport_tss_7d": 102.0,
     "effective_monotony": 0.58,
     "multi_sport_detected": true,
-    "strain": 130.0,
-    "stress_tolerance": 1.5,
-    "load_recovery_ratio": 1.4,
-    "tss_7d_total": 150.0,
-    "tss_28d_total": 835.0,
+    "strain": 211.0,
+    "stress_tolerance": 1.9,
+    "load_recovery_ratio": 1.8,
+    "tss_7d_total": 185.0,
+    "tss_28d_total": 870.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.97,
-      "z2_hours": 0.5,
-      "z3_hours": 0.22,
+      "z1_hours": 1.98,
+      "z2_hours": 0.93,
+      "z3_hours": 0.3,
       "z4_plus_hours": 0.26,
-      "total_hours": 2.95,
+      "total_hours": 3.47,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 7.5,
+    "grey_zone_percentage": 8.7,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 8.7,
+    "quality_intensity_percentage": 7.4,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "easy_time_ratio": 0.84,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 8903,
-      "z2_seconds": 797,
-      "z3_seconds": 919,
-      "z1_pct": 83.8,
-      "z2_pct": 7.5,
-      "z3_pct": 8.7,
-      "polarization_index": 1.99,
+      "z1_seconds": 10472,
+      "z2_seconds": 1082,
+      "z3_seconds": 925,
+      "z1_pct": 83.9,
+      "z2_pct": 8.7,
+      "z3_pct": 7.4,
+      "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
@@ -386,13 +398,13 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 38908,
-      "z2_seconds": 4030,
-      "z3_seconds": 7920,
-      "z1_pct": 76.5,
-      "z2_pct": 7.9,
-      "z3_pct": 15.6,
-      "polarization_index": 2.18,
+      "z1_seconds": 40477,
+      "z2_seconds": 4315,
+      "z3_seconds": 7926,
+      "z1_pct": 76.8,
+      "z2_pct": 8.2,
+      "z3_pct": 15.0,
+      "polarization_index": 2.15,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
@@ -440,10 +452,10 @@
       "tid_comparison": {
         "classification_7d": "Pyramidal",
         "classification_28d": "Polarized",
-        "pi_7d": 1.99,
-        "pi_28d": 2.18,
-        "pi_delta": -0.19,
-        "drift": "acute_depolarization",
+        "pi_7d": null,
+        "pi_28d": 2.15,
+        "pi_delta": null,
+        "drift": "shifting",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
       "power_curve_delta": {
@@ -621,15 +633,20 @@
           "w_prime_used": 19213,
           "ftp_staleness_days": 118,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
+        },
+        "rowing": {
+          "anchors": null,
+          "coverage_ratio": 0.0,
+          "note": "Too few observed anchors (0, need 2+)."
         }
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.67,
+    "consistency_index": 0.83,
     "consistency_details": {
       "planned_days": 6,
-      "completed_days": 5,
-      "matched_days": 4,
+      "completed_days": 6,
+      "matched_days": 5,
       "planned_dates": [
         "2026-11-18",
         "2026-11-19",
@@ -643,7 +660,8 @@
         "2026-11-19",
         "2026-11-20",
         "2026-11-22",
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-24"
       ]
     },
     "phase_detection": {
@@ -697,13 +715,13 @@
     "w_prime_kj": 19.2,
     "p_max": 832,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-11-24T06:52:53.555165",
+    "vo2max": 52.0,
+    "calculation_timestamp": "2026-11-24T18:46:21.508387",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 6,
-      "activities_28d": 17,
+      "activities_7d": 8,
+      "activities_28d": 19,
       "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
@@ -712,6 +730,169 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i214172553",
+      "date": "2026-11-24T17:46:10",
+      "type": "Run",
+      "name": "Affoltern am Albis Running",
+      "duration_hours": 0.52,
+      "duration_formatted": "30m59s",
+      "distance_km": 5.36,
+      "tss": 35,
+      "intensity_factor": 82.32762,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 155,
+      "max_hr": 174,
+      "avg_cadence": 76.72336,
+      "avg_speed": 10.4,
+      "avg_speed_unit": "KPH",
+      "max_speed": 14.4,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 16.139397,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "BFT",
+      "work_kj": null,
+      "calories": 409,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": 23.334259,
+      "display": {
+        "distance": {
+          "value": 5.36,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 23,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 10.4,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 14.4,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 34,
+          "z2_time": 1535,
+          "z3_time": 285,
+          "z4_time": 6,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true,
+      "has_dfa": false,
+      "terrain_summary": {
+        "source": "activity_streams",
+        "total_distance_km": 5.4,
+        "total_elevation_m": 39,
+        "elevation_per_km": 7.2,
+        "course_character": "rolling",
+        "max_grade_pct": 4.3,
+        "grade_distribution": {
+          "flat_pct": 48.5,
+          "gentle_pct": 44.0,
+          "moderate_pct": 7.5,
+          "steep_pct": 0.0
+        },
+        "start_coords": [
+          47.28275,
+          8.45456
+        ],
+        "climbs": [],
+        "descents": [],
+        "display": {
+          "total_distance": {
+            "value": 5.4,
+            "unit": "km"
+          },
+          "total_elevation": {
+            "value": 39,
+            "unit": "m"
+          },
+          "elevation_per_distance": {
+            "value": 7,
+            "unit": "m/km"
+          }
+        }
+      },
+      "weather_status": "unavailable"
+    },
+    {
+      "id": "i214026678",
+      "date": "2026-11-24T07:54:04",
+      "type": "Rowing",
+      "name": "Aerobic Base Row (Ergometer)",
+      "duration_hours": 0.43,
+      "duration_formatted": "25m56s",
+      "distance_km": 4.49,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": 22.723227,
+      "avg_speed": 10.4,
+      "avg_speed_unit": "KPH",
+      "max_speed": 118.8,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "BFT",
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 4.49,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": {
+          "value": 10.4,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 118.8,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false,
+      "description": "SyncRow Virtual Row"
+    },
     {
       "id": "i213729250",
       "date": "2026-11-23T18:07:24",
@@ -3121,7 +3302,7 @@
       "sleep_score": 80.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 52.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -3138,7 +3319,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 179,
+      "steps": 7854,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3179,6 +3360,20 @@
       "description": "Purpose: Foundation Runs are the most important type of run you can do and are the run type you should do most frequently in training. Collectively, they serve to develop aerobic fitness, endurance, running economy, and durability, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\n- Warm-up 5m Z1 HR\n- Active 25m Z1 HR"
     },
     {
+      "id": 157633956,
+      "date": "2026-11-25",
+      "name": "Velo P1 W-B (Anatomical Adaptation)",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 28,
+      "duration_hours": 0.13,
+      "duration_formatted": "8m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "07:00",
+      "description": "Perform in Hevy App -> Routine: \"Velo P1 W-B (Anatomical Adaptation)\"\n\n1. Goblet Squat \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet shoulder-width apart, holding one dumbbell vertically against chest with both hands. The Movement: Send hips back and down to lower into squat until thighs are parallel to floor, then drive ...\n2. Curtsy Lunge (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall holding dumbbells at sides or shoulders. The Movement: Step one foot back and across behind opposite leg, lowering hips until front thigh is parallel to floor. Step back up and repeat. Form Tips ...\n3. Standing Calf Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand on edge of step or flat ground with dumbbells at sides, balls of feet supported. The Movement: Lower heels down for full stretch, then press through balls of feet to raise heels as high as possible. F...\n4. Lateral Lunge (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet together holding dumbbells in hands. The Movement: Take a wide step to side, bend lunging knee while keeping trailing leg straight, and push hips back. Drive off lunging foot to return. Form...\n5. Bent Over Row (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand holding dumbbells, hinge forward at hips with flat back until torso is nearly parallel to floor. The Movement: Pull dumbbells up toward hips, driving elbows back and squeezing shoulder blades together...\n6. Pullover (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Anchor resistance band at eye level and hold handles with palms facing down or inward. The Movement: Pull band toward face/eyes while flaring elbows high and out, squeezing upper back and rear shoulders. Fo...\n7. Chest Supported Incline Row (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Anchor resistance band overhead or stand tall holding band overhead with hands wide. The Movement: Pull elbows down and back toward ribs, pulling band apart as it approaches chest level. Form Tips for Cycli...\n8. Renegade Row (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Grab pull-up bar with underhand (supinated) grip shoulder-width apart. The Movement: Pull chest up toward bar until chin clears bar. Lower down under control to full arm extension. Form Tips for Cyclists: A...\n\nStrength Phase: Anatomical Adaptation (AA)\nFocus: Velo P1 W-B (Anatomical Adaptation)"
+    },
+    {
       "id": 157633951,
       "date": "2026-11-26",
       "name": "Aerobic Base Swim",
@@ -3205,20 +3400,6 @@
       "has_terrain": false,
       "start_time": "07:00",
       "description": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 25m 50-66%"
-    },
-    {
-      "id": 157633956,
-      "date": "2026-11-28",
-      "name": "Velo P1 W-B (Anatomical Adaptation)",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 28,
-      "duration_hours": 0.13,
-      "duration_formatted": "8m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:00",
-      "description": "Perform in Hevy App -> Routine: \"Velo P1 W-B (Anatomical Adaptation)\"\n\n1. Goblet Squat \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet shoulder-width apart, holding one dumbbell vertically against chest with both hands. The Movement: Send hips back and down to lower into squat until thighs are parallel to floor, then drive ...\n2. Curtsy Lunge (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand tall holding dumbbells at sides or shoulders. The Movement: Step one foot back and across behind opposite leg, lowering hips until front thigh is parallel to floor. Step back up and repeat. Form Tips ...\n3. Standing Calf Raise (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand on edge of step or flat ground with dumbbells at sides, balls of feet supported. The Movement: Lower heels down for full stretch, then press through balls of feet to raise heels as high as possible. F...\n4. Lateral Lunge (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand with feet together holding dumbbells in hands. The Movement: Take a wide step to side, bend lunging knee while keeping trailing leg straight, and push hips back. Drive off lunging foot to return. Form...\n5. Bent Over Row (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Stand holding dumbbells, hinge forward at hips with flat back until torso is nearly parallel to floor. The Movement: Pull dumbbells up toward hips, driving elbows back and squeezing shoulder blades together...\n6. Pullover (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Anchor resistance band at eye level and hold handles with palms facing down or inward. The Movement: Pull band toward face/eyes while flaring elbows high and out, squeezing upper back and rear shoulders. Fo...\n7. Chest Supported Incline Row (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Anchor resistance band overhead or stand tall holding band overhead with hands wide. The Movement: Pull elbows down and back toward ribs, pulling band apart as it approaches chest level. Form Tips for Cycli...\n8. Renegade Row (Dumbbell) \u2014 2 sets x 12-15 reps | Rest 60s\n   Cue: The Setup: Grab pull-up bar with underhand (supinated) grip shoulder-width apart. The Movement: Pull chest up toward bar until chin clears bar. Lower down under control to full arm extension. Form Tips for Cyclists: A...\n\nStrength Phase: Anatomical Adaptation (AA)\nFocus: Velo P1 W-B (Anatomical Adaptation)"
     },
     {
       "id": 157633958,
@@ -3384,10 +3565,10 @@
     "bail_no_match": 14
   },
   "weekly_summary": {
-    "total_training_hours": 2.95,
-    "total_training_formatted": "2h57m",
-    "total_tss": 150,
-    "activities_count": 6,
+    "total_training_hours": 3.9,
+    "total_training_formatted": "3h54m",
+    "total_tss": 185,
+    "activities_count": 8,
     "avg_hrv": 41.3,
     "avg_resting_hr": 53.7
   },
