@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:37:00.995755",
+  "generated_at": "2026-11-25T21:59:38.038848",
   "version": "3.117",
   "script_hash": "ab26e5fd38f4",
   "scan_hours": 72,
@@ -1657,6 +1657,68 @@
           "max_hr": 163,
           "avg_cadence": 74.9313,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i214590031",
+      "date": "2026-11-25",
+      "start_datetime": "2026-11-25T17:13:09",
+      "type": "VirtualRide",
+      "name": "Evening Easy Aerobic Spin",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1841,
+          "avg_power": 138,
+          "max_power": 306,
+          "avg_hr": 123,
+          "max_hr": 135,
+          "avg_cadence": 91.41827,
+          "zone": 1,
+          "training_load": 13.877066,
+          "decoupling": 9.854747
+        }
+      ]
+    },
+    {
+      "activity_id": "i214026678",
+      "date": "2026-11-24",
+      "start_datetime": "2026-11-24T07:54:04",
+      "type": "Rowing",
+      "name": "Aerobic Base Row (Ergometer)",
+      "interval_summary": [
+        "1x 3m15s 83w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1129,
+          "avg_power": 65,
+          "max_power": 101,
+          "avg_cadence": 22.976868,
+          "zone": 2,
+          "training_load": 11.552271
+        },
+        {
+          "type": "WORK",
+          "label": "195s@83w24rpm",
+          "duration_secs": 195,
+          "avg_power": 83,
+          "max_power": 99,
+          "avg_cadence": 24.469072,
+          "zone": 3,
+          "training_load": 3.0681038
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 237,
+          "avg_power": 57,
+          "max_power": 85,
+          "avg_cadence": 19.694916,
+          "zone": 1,
+          "training_load": 1.9586776
         }
       ]
     }
