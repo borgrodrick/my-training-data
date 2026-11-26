@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-26T04:05:32.836656",
+    "last_updated": "2026-11-26T13:56:54.375903",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.117"
@@ -115,14 +115,14 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 40.7,
-        "delta_pct": null
+        "status": "green",
+        "value": 42.0,
+        "baseline_7d": 40.9,
+        "delta_pct": 2.7
       },
       "rhr": {
         "status": "amber",
@@ -131,17 +131,17 @@
         "delta_bpm": 3.1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 5.07,
+        "quality": 4
       },
       "acwr": {
         "status": "green",
         "value": 0.59
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
+        "status": "green",
+        "value": 0.97,
         "value_yesterday": 0.84
       },
       "tsb": {
@@ -150,10 +150,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 1,
+      "green": 4,
+      "amber": 2,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Base",
@@ -162,8 +162,18 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 2 green, 1 amber (threshold 2), 0 red.",
+    "modification": {
+      "triggers": [
+        "rhr",
+        "sleep"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": null
+      }
+    },
+    "reason": "P2 signal count. 2 amber (rhr, sleep) >= threshold 2.",
     "alarm_refs": []
   },
   "history": {
@@ -246,8 +256,8 @@
       "ctl": 38.74,
       "atl": 23.68,
       "tsb": 15.06,
-      "ramp_rate": -2.14,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": -3.74,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 237.1,
@@ -299,11 +309,11 @@
         }
       },
       "resting_hr": 57,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "hrv": 42.0,
+      "sleep_quality": 4,
+      "sleep_hours": 5.07,
+      "sleep_formatted": "5h4m",
+      "sleep_score": 54.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -320,7 +330,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 406,
+      "steps": 610,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -332,13 +342,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
+    "recovery_index": 0.97,
     "recovery_index_yesterday": 0.84,
-    "hrv_baseline_7d": 40.7,
+    "hrv_baseline_7d": 40.9,
     "rhr_baseline_7d": 53.9,
     "hrv_baseline_28d": 41.5,
     "rhr_baseline_28d": 53.2,
-    "latest_hrv": null,
+    "latest_hrv": 42.0,
     "latest_rhr": 57,
     "acwr": 0.59,
     "acwr_interpretation": "undertraining",
@@ -351,7 +361,7 @@
     "multi_sport_detected": true,
     "strain": 116.0,
     "stress_tolerance": 1.3,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 1.3,
     "tss_7d_total": 128.0,
     "tss_28d_total": 869.0,
     "zone_distribution_7d": {
@@ -680,9 +690,9 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.67,
+    "consistency_index": 0.8,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 5,
       "matched_days": 4,
       "planned_dates": [
@@ -690,8 +700,7 @@
         "2026-11-21",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25",
-        "2026-11-26"
+        "2026-11-25"
       ],
       "completed_dates": [
         "2026-11-20",
@@ -713,13 +722,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.93,
+          "planned_tss_delta": 1.64,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": null,
           "next_week_load": 0.79,
-          "plan_coverage_current_week": 0.75,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 2.25
         },
         "data_quality": "good",
@@ -753,13 +762,13 @@
     "p_max": 831,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-26T04:05:32.835989",
+    "calculation_timestamp": "2026-11-26T13:56:54.374961",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 20,
-      "planned_workouts_7d": 9,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -3334,12 +3343,12 @@
         "weight": null
       },
       "resting_hr": 57,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 42.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 5.07,
+      "sleep_formatted": "5h4m",
+      "sleep_quality": 4,
+      "sleep_score": 54.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3359,7 +3368,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 406,
+      "steps": 610,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3373,17 +3382,31 @@
   "planned_workouts": [
     {
       "id": 157633951,
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "name": "Aerobic Base Swim",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 37,
-      "duration_hours": 0.72,
-      "duration_formatted": "43m2s",
+      "planned_tss": 24,
+      "duration_hours": 0.45,
+      "duration_formatted": "27m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
       "description": "Purpose: Endurance Swims feature a sustained, steady effort in Zone 2. They serve to develop aerobic fitness, endurance, and efficiency, and enable you to perform better in and get more benefit from your more challenging workouts.\n\nPacing Strategy:\n\n- Warm up 7m33s Z2 Pace\n- Recovery 15s Z1 Pace\n- Active 27m26s Z2 Pace\n- Recovery 15s Z1 Pace\n- Recovery 7m33s Z1 Pace"
+    },
+    {
+      "id": 157633955,
+      "date": "2026-11-27",
+      "name": "Evening Easy Aerobic Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 24,
+      "duration_hours": 0.45,
+      "duration_formatted": "27m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "07:00",
+      "description": "Purpose: Take advantage of this day with active recovery. Avoid even Zone 2. High cadence.\n\nPacing Strategy:\n\u2022 Target Cadence: Settle into a smooth, rhythmic 88\u201395 RPM.\n\u2022 Discipline: Avoid surging above prescribed power early in intervals; preserve aerobic stability.\n\nTrainer Mode: For steady intervals, ERG mode is recommended. Switch to Level/Resistance mode if executing sprints or maximal efforts.\n\n- Warm up 25m 50-66%"
     },
     {
       "id": 157633958,
@@ -3391,9 +3414,9 @@
       "name": "Unstructured Mixed-Terrain Ride (Gravel/Trail)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 34,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
+      "planned_tss": 36,
+      "duration_hours": 0.68,
+      "duration_formatted": "41m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:00",
@@ -3405,7 +3428,7 @@
       "name": "Extended Aerobic Endurance Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 41,
+      "planned_tss": 72,
       "duration_hours": 1.33,
       "duration_formatted": "1h20m",
       "workout_summary": null,
@@ -3541,19 +3564,19 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
+    "attempted": 13,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 11
+    "bail_no_match": 12
   },
   "weekly_summary": {
     "total_training_hours": 2.76,
     "total_training_formatted": "2h45m",
     "total_tss": 128,
     "activities_count": 8,
-    "avg_hrv": 40.7,
+    "avg_hrv": 40.9,
     "avg_resting_hr": 53.9
   },
   "race_calendar": {
