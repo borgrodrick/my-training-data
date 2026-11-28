@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-28T13:59:47.606667",
+    "last_updated": "2026-11-28T21:40:30.291949",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.117"
@@ -332,7 +332,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 128,
+      "steps": 14043,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -549,6 +549,53 @@
         },
         "weight_kg": 78.7,
         "weight_source": "athlete_profile",
+        "rowing": {
+          "anchors": {
+            "60s": {
+              "actual_watts": 87,
+              "actual_wpkg": 1.11,
+              "actual_hr": null,
+              "pct_lthr": null,
+              "source": "observed"
+            },
+            "120s": {
+              "actual_watts": 86,
+              "actual_wpkg": 1.09,
+              "actual_hr": null,
+              "pct_lthr": null,
+              "source": "observed"
+            },
+            "300s": {
+              "actual_watts": 77,
+              "actual_wpkg": 0.98,
+              "actual_hr": null,
+              "pct_lthr": null,
+              "source": "observed"
+            },
+            "600s": {
+              "actual_watts": 73,
+              "actual_wpkg": 0.93,
+              "actual_hr": null,
+              "pct_lthr": null,
+              "source": "observed"
+            },
+            "1200s": {
+              "actual_watts": 69,
+              "actual_wpkg": 0.88,
+              "actual_hr": null,
+              "pct_lthr": null,
+              "source": "observed"
+            },
+            "1800s": {
+              "actual_watts": null,
+              "actual_wpkg": null,
+              "actual_hr": null,
+              "pct_lthr": null,
+              "source": null
+            }
+          },
+          "coverage_ratio": 0.83
+        },
         "cycling": {
           "anchors": {
             "300s": {
@@ -641,53 +688,6 @@
           "w_prime_used": 19137,
           "ftp_staleness_days": 122,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
-        },
-        "rowing": {
-          "anchors": {
-            "60s": {
-              "actual_watts": 87,
-              "actual_wpkg": 1.11,
-              "actual_hr": null,
-              "pct_lthr": null,
-              "source": "observed"
-            },
-            "120s": {
-              "actual_watts": 86,
-              "actual_wpkg": 1.09,
-              "actual_hr": null,
-              "pct_lthr": null,
-              "source": "observed"
-            },
-            "300s": {
-              "actual_watts": 77,
-              "actual_wpkg": 0.98,
-              "actual_hr": null,
-              "pct_lthr": null,
-              "source": "observed"
-            },
-            "600s": {
-              "actual_watts": 73,
-              "actual_wpkg": 0.93,
-              "actual_hr": null,
-              "pct_lthr": null,
-              "source": "observed"
-            },
-            "1200s": {
-              "actual_watts": 69,
-              "actual_wpkg": 0.88,
-              "actual_hr": null,
-              "pct_lthr": null,
-              "source": "observed"
-            },
-            "1800s": {
-              "actual_watts": null,
-              "actual_wpkg": null,
-              "actual_hr": null,
-              "pct_lthr": null,
-              "source": null
-            }
-          },
-          "coverage_ratio": 0.83
         }
       },
       "dfa_a1_profile": null
@@ -765,7 +765,7 @@
     "p_max": 829,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-28T13:59:47.605460",
+    "calculation_timestamp": "2026-11-28T21:40:30.290728",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3344,7 +3344,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 128,
+      "steps": 14043,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
